@@ -37,7 +37,10 @@ import {
   Impersonation,
 } from "@workos-inc/authkit-nextjs";
 
-const navItems = [{ label: "Home", url: "/" }];
+const navItems = [
+  { label: "Home", url: "/" },
+  { label: "My Tracks", url: "/tracks" },
+];
 
 export const Layout = forwardRef(
   async (
