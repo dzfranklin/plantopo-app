@@ -518,8 +518,8 @@
     "licenses": "MIT",
     "repository": "https://github.com/workos-inc/workos-node",
     "publisher": "WorkOS",
-    "path": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/node",
-    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/node/LICENSE"
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/authkit-nextjs/node_modules/@workos-inc/node",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/authkit-nextjs/node_modules/@workos-inc/node/LICENSE"
   },
   "acorn-jsx@5.3.2": {
     "licenses": "MIT",

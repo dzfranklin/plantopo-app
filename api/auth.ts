@@ -12,7 +12,6 @@ export const UserInfoSchema = z.object({
     updatedAt: z.string(),
   }),
   accessToken: z.string(),
-  accessTokenExpiry: z.number().nullable(),
 });
 
 export type UserInfo = z.infer<typeof UserInfoSchema>;

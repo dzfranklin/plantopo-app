@@ -1,13 +1,14 @@
 import { z } from 'zod';
 
 export class NetworkError extends Error {
+  name = 'NetworkError';
   constructor(public options: FetchOptions<unknown>) {
     super('Network error');
-    this.name = 'NetworkError';
   }
 }
 
 export class ServerError extends Error {
+  name = 'ServerError';
   constructor(
     public options: FetchOptions<unknown>,
     public requestID: string,
@@ -15,9 +16,8 @@ export class ServerError extends Error {
     public body?: string,
   ) {
     super(
-      `${response.status} ${response.statusText} ${response.url} [${requestID}]: ${body}`,
+      `ServerError: ${response.status} ${response.statusText} ${response.url} [${requestID}]: ${body}`,
     );
-    this.name = 'ServerError';
   }
 
   get status() {
@@ -26,12 +26,12 @@ export class ServerError extends Error {
 }
 
 export class AuthorizationError extends Error {
+  name = 'AuthorizationError';
   constructor(
     public options: FetchOptions<unknown>,
     public requestID: string,
   ) {
-    super(`${options.path} [${requestID}]`);
-    this.name = 'AuthorizationError';
+    super(`AuthorizationError: ${options.path} [${requestID}]`);
   }
 }
 

@@ -17,7 +17,6 @@ export async function POST(_req: Request): Promise<Response> {
         updatedAt: userInfo.user.updatedAt,
       },
       accessToken: userInfo.accessToken,
-      accessTokenExpiry: userInfo.accessTokenExpiry,
     };
   }
   return new Response(JSON.stringify(resp), {

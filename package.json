@@ -17,7 +17,7 @@
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.13",
     "@turf/simplify": "^7.0.0",
-    "@workos-inc/authkit-nextjs": "git+https://github.com/dzfranklin/authkit-nextjs.git#0e4f045575129dc5ac7644764e47e3ef82c6a07e",
+    "@workos-inc/authkit-nextjs": "^0.6.1",
     "framer-motion": "^11.2.10",
     "geojson": "^0.5.0",
     "inter-ui": "^4.0.2",

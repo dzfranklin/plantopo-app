@@ -5,6 +5,7 @@ import clsx from 'clsx';
 import type React from 'react';
 import { Button } from './button';
 import { Link } from './link';
+import { forwardRef } from 'react';
 
 export function Dropdown(props: Headless.MenuProps) {
   return <Headless.Menu {...props} />;
@@ -146,19 +147,26 @@ export function DropdownDivider({
   );
 }
 
-export function DropdownLabel({
-  className,
-  ...props
-}: { className?: string } & Omit<Headless.LabelProps, 'className'>) {
-  return (
-    <Headless.Label
-      {...props}
-      data-slot="label"
-      className={clsx(className, 'col-start-2 row-start-1')}
-      {...props}
-    />
-  );
-}
+export const DropdownLabel = forwardRef<HTMLLabelElement>(
+  (
+    {
+      className,
+      ...props
+    }: { className?: string } & Omit<Headless.LabelProps, 'className'>,
+    ref,
+  ) => {
+    return (
+      <Headless.Label
+        {...props}
+        ref={ref}
+        data-slot="label"
+        className={clsx(className, 'col-start-2 row-start-1')}
+        {...props}
+      />
+    );
+  },
+);
+DropdownLabel.displayName = 'DropdownLabel';
 
 export function DropdownDescription({
   className,

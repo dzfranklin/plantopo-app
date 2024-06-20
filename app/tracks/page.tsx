@@ -1,5 +1,7 @@
 import { Layout } from '@/components/Layout';
 import {
+  Track,
+  TrackImport,
   fetchMyPendingOrRecentTrackImports,
   fetchMyTracks,
 } from '@/features/tracks/api';
@@ -7,12 +9,26 @@ import TrackGridComponent from './TrackGridComponent';
 import TrackUploadButton from '../../features/tracks/upload/TrackUploadButton';
 import InlineAlert from '@/components/InlineAlert';
 import TracksEmptyStateComponent from '@/features/tracks/upload/TracksEmptyStateComponent';
+import { AuthorizationError } from '@/api';
+import UnauthorizedScreen from '@/components/UnauthorizedScreen';
 
 // TODO: Live load updated status as imports progress
 
 export default async function Page() {
-  const myImports = await fetchMyPendingOrRecentTrackImports();
-  const myTracks = await fetchMyTracks();
+  let myImports: TrackImport[];
+  let myTracks: Track[];
+  try {
+    [myImports, myTracks] = await Promise.all([
+      fetchMyPendingOrRecentTrackImports(),
+      fetchMyTracks(),
+    ]);
+  } catch (err) {
+    if (err instanceof AuthorizationError) {
+      return await UnauthorizedScreen();
+    } else {
+      throw err;
+    }
+  }
 
   const pendingImports = myImports.filter(
     (entry) => entry.failedAt === undefined && entry.completedAt === undefined,

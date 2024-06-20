@@ -7,6 +7,7 @@ import {
   ServerError,
 } from './types';
 import { API_ENDPOINT } from '../env';
+import { notFound } from 'next/navigation';
 
 const requestIDFactory = monotonicFactory();
 
@@ -49,8 +50,10 @@ export async function baseApiFetch<T>(
   }
 
   if (!response.ok) {
-    if (response.status === 401) {
+    if (response.status === 401 || response.status === 403) {
       throw new AuthorizationError(options, requestID);
+    } else if (response.status === 404) {
+      notFound();
     }
     let body: string | undefined;
     try {
