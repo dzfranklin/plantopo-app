@@ -6,8 +6,8 @@ import { z } from 'zod';
 const TrackGeoJSONSchema = z.object({
   type: z.literal('Feature'),
   properties: z.object({
-    desc: z.string().optional(),
-    lengthMetres: z.number().optional(),
+    lengthMeters: z.number().optional(),
+    durationSecs: z.number().optional(),
     coordinateProperties: z
       .object({
         elevationMeters: z.array(z.number()).optional(),

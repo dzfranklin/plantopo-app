@@ -1,13 +1,19 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+const devNextConfig = {
   async rewrites() {
+    const endpoint = process.env.DEV_PROXY_API_ENDPOINT;
     return [
       {
-        source: '/api/:path*',
-        destination: 'http://localhost:8000/api/:path*',
+        source: '/api/v1/:path*',
+        destination: endpoint + ':path*',
       },
     ];
   },
 };
 
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const prodNextConfig = {};
+
+export default process.env.NODE_ENV === 'development'
+  ? devNextConfig
+  : prodNextConfig;

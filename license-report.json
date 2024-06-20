@@ -444,8 +444,8 @@
   "@typescript-eslint/scope-manager@7.13.1": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
-    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/scope-manager",
-    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/scope-manager/LICENSE"
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/utils/node_modules/@typescript-eslint/scope-manager",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/utils/node_modules/@typescript-eslint/scope-manager/LICENSE"
   },
   "@typescript-eslint/scope-manager@7.2.0": {
     "licenses": "MIT",
@@ -462,8 +462,8 @@
   "@typescript-eslint/types@7.13.1": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
-    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/types",
-    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/types/LICENSE"
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils/node_modules/@typescript-eslint/types",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils/node_modules/@typescript-eslint/types/LICENSE"
   },
   "@typescript-eslint/types@7.2.0": {
     "licenses": "MIT",
@@ -492,8 +492,8 @@
   "@typescript-eslint/visitor-keys@7.13.1": {
     "licenses": "MIT",
     "repository": "https://github.com/typescript-eslint/typescript-eslint",
-    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/visitor-keys",
-    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/visitor-keys/LICENSE"
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils/node_modules/@typescript-eslint/visitor-keys",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils/node_modules/@typescript-eslint/visitor-keys/LICENSE"
   },
   "@typescript-eslint/visitor-keys@7.2.0": {
     "licenses": "MIT",
@@ -2102,7 +2102,7 @@
     "path": "/Users/daniel/projects/plantopo-app/node_modules/jiti",
     "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/jiti/LICENSE"
   },
-  "jose@5.4.0": {
+  "jose@5.4.1": {
     "licenses": "MIT",
     "repository": "https://github.com/panva/jose",
     "publisher": "Filip Skokan",
