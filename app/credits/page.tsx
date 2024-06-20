@@ -1,6 +1,5 @@
 import { Layout } from '@/components/Layout';
-import licenseReport from '@/license-report.json';
-import { nonLocaleCompare } from '@/nonLocalCompare';
+import dependencyReport from '@/dependencyReport.json';
 
 export default function Page() {
   return (
@@ -30,15 +29,13 @@ export default function Page() {
 
         <h2>App</h2>
         <ul>
-          {Object.entries(licenseReport)
-            .sort(([a], [b]) => nonLocaleCompare(a, b))
-            .map(([name, entry], i) => (
-              <li key={i}>
-                <a href={entryURL(entry)}>{name}</a>{' '}
-                {'publisher' in entry && <span>by {entry.publisher}</span>} (
-                {entry.licenses})
-              </li>
-            ))}
+          {dependencyReport.map((entry) => (
+            <li key={entry.name}>
+              <a href={entry.repository ?? undefined}>{entry.name}</a>{' '}
+              {entry.publisher && <span>by {entry.publisher}</span>}{' '}
+              <span>({entry.licenses})</span>
+            </li>
+          ))}
         </ul>
 
         <h2>API</h2>
@@ -67,14 +64,4 @@ export default function Page() {
       </section>
     </Layout>
   );
-}
-
-function entryURL(entry: (typeof licenseReport)[keyof typeof licenseReport]) {
-  if ('repository' in entry && typeof entry.repository === 'string') {
-    return entry.repository;
-  } else if ('url' in entry && typeof entry.url === 'string') {
-    return entry.url;
-  } else {
-    return undefined;
-  }
 }
