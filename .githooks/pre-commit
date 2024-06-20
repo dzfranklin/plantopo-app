@@ -17,17 +17,17 @@ if (lint.code !== 0) {
   exitCode = 1;
 }
 
-const tsc = await new Deno.Command('tsc', {
-  args: ['--project', 'tsconfig.json', '--noEmit'],
+const build = await new Deno.Command('npm', {
+  args: ['run', 'build'],
   stdout: 'piped',
   stderr: 'piped',
   env: {
     ...Deno.env.toObject(),
   },
 }).output();
-if (tsc.code !== 0) {
-  console.error('TypeScript check failed');
-  await Deno.stdout.write(tsc.stdout);
+if (build.code !== 0) {
+  console.error('Build failed');
+  await Deno.stdout.write(build.stdout);
   exitCode = 1;
 }
 
