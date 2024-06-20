@@ -3268,7 +3268,7 @@
     "licenses": "UNLICENSED",
     "private": true,
     "path": "/Users/daniel/projects/plantopo-app",
-    "licenseFile": "/Users/daniel/projects/plantopo-app/license-report.json"
+    "licenseFile": "/Users/daniel/projects/plantopo-app/README.md"
   },
   "pluralize@8.0.0": {
     "licenses": "MIT",
