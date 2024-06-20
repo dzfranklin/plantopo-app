@@ -147,25 +147,23 @@ export function DropdownDivider({
   );
 }
 
-export const DropdownLabel = forwardRef<HTMLLabelElement>(
-  (
-    {
-      className,
-      ...props
-    }: { className?: string } & Omit<Headless.LabelProps, 'className'>,
-    ref,
-  ) => {
-    return (
-      <Headless.Label
-        {...props}
-        ref={ref}
-        data-slot="label"
-        className={clsx(className, 'col-start-2 row-start-1')}
-        {...props}
-      />
-    );
-  },
-);
+export const DropdownLabel = forwardRef<
+  HTMLLabelElement,
+  { className?: string; children?: React.ReactNode } & Omit<
+    Headless.LabelProps,
+    'className'
+  >
+>(({ className, ...props }, ref) => {
+  return (
+    <Headless.Label
+      {...props}
+      ref={ref}
+      data-slot="label"
+      className={clsx(className, 'col-start-2 row-start-1')}
+      {...props}
+    />
+  );
+});
 DropdownLabel.displayName = 'DropdownLabel';
 
 export function DropdownDescription({

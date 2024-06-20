@@ -1,5 +1,7 @@
 #!/usr/bin/env -S deno run --allow-all
 
+let exitCode = 0;
+
 const lint = await new Deno.Command('npm', {
   args: ['run', 'lint'],
   stdout: 'piped',
@@ -11,5 +13,20 @@ const lint = await new Deno.Command('npm', {
 }).output();
 if (lint.code !== 0) {
   await Deno.stdout.write(lint.stderr);
-  Deno.exit(1);
+  exitCode = 1;
 }
+
+const tsc = await new Deno.Command('tsc', {
+  args: ['--project', 'tsconfig.json', '--noEmit'],
+  stdout: 'piped',
+  stderr: 'piped',
+  env: {
+    ...Deno.env.toObject(),
+  },
+}).output();
+if (tsc.code !== 0) {
+  await Deno.stdout.write(tsc.stderr);
+  exitCode = 1;
+}
+
+Deno.exit(exitCode);
