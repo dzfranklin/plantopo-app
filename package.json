@@ -4,27 +4,43 @@
   "private": true,
   "scripts": {
     "dev": "next dev --experimental-https -p 443",
-    "build": "next build",
+    "build": "npm run build:license-report && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "prettier . --check && next lint",
+    "build:license-report": "npx license-checker --json --out=license-report.json"
   },
   "dependencies": {
     "@headlessui/react": "^2.0.4",
     "@heroicons/react": "^2.1.3",
-    "@workos-inc/authkit-nextjs": "^0.6.1",
+    "@mapbox/polyline": "^1.2.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.13",
+    "@turf/simplify": "^7.0.0",
+    "@workos-inc/authkit-nextjs": "git+https://github.com/dzfranklin/authkit-nextjs.git#0e4f045575129dc5ac7644764e47e3ef82c6a07e",
     "framer-motion": "^11.2.10",
+    "geojson": "^0.5.0",
     "inter-ui": "^4.0.2",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react18-json-view": "^0.2.8",
+    "tailwindcss-animate": "^1.0.7",
+    "ulid": "^2.3.0",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
+    "@types/geojson": "^7946.0.14",
+    "@types/mapbox__polyline": "^1.0.5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
+    "eslint-config-prettier": "^9.1.0",
     "postcss": "^8",
+    "prettier": "^3.3.2",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

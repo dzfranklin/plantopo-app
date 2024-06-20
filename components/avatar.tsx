@@ -1,13 +1,14 @@
-import * as Headless from "@headlessui/react";
-import clsx from "clsx";
-import React from "react";
-import { TouchTarget } from "./button";
-import { Link } from "./link";
+import * as Headless from '@headlessui/react';
+import clsx from 'clsx';
+import React, { useMemo } from 'react';
+import { TouchTarget } from './button';
+import { Link } from './link';
 
 type AvatarProps = {
   src?: string | null;
   square?: boolean;
-  initials?: string;
+  firstName?: string;
+  lastName?: string;
   alt?: string;
   className?: string;
 };
@@ -15,11 +16,25 @@ type AvatarProps = {
 export function Avatar({
   src = null,
   square = false,
-  initials,
-  alt = "",
+  firstName,
+  lastName,
+  alt = '',
   className,
   ...props
-}: AvatarProps & React.ComponentPropsWithoutRef<"span">) {
+}: AvatarProps & React.ComponentPropsWithoutRef<'span'>) {
+  const initials = useMemo(() => {
+    const names = [];
+    if (firstName) names.push(firstName);
+    if (lastName) names.push(lastName);
+
+    const segmenter = new Intl.Segmenter('en', { granularity: 'grapheme' });
+    let initials = '';
+    for (const name of names) {
+      const segments = Array.from(segmenter.segment(name));
+      initials += segments[0].segment;
+    }
+    return initials;
+  }, [firstName, lastName]);
   return (
     <span
       data-slot="avatar"
@@ -27,19 +42,19 @@ export function Avatar({
       className={clsx(
         className,
         // Basic layout
-        "inline-grid shrink-0 align-middle [--avatar-radius:20%] [--ring-opacity:20%] *:col-start-1 *:row-start-1",
-        "outline outline-1 -outline-offset-1 outline-black/[--ring-opacity] ",
+        'inline-grid shrink-0 align-middle [--avatar-radius:20%] [--ring-opacity:20%] *:col-start-1 *:row-start-1',
+        'outline outline-1 -outline-offset-1 outline-black/[--ring-opacity] ',
         // Add the correct border radius
         square
-          ? "rounded-[--avatar-radius] *:rounded-[--avatar-radius]"
-          : "rounded-full *:rounded-full"
+          ? 'rounded-[--avatar-radius] *:rounded-[--avatar-radius]'
+          : 'rounded-full *:rounded-full',
       )}
     >
       {initials && (
         <svg
           className="size-full select-none fill-current p-[5%] text-[48px] font-medium uppercase"
           viewBox="0 0 100 100"
-          aria-hidden={alt ? undefined : "true"}
+          aria-hidden={alt ? undefined : 'true'}
         >
           {alt && <title>{alt}</title>}
           <text
@@ -63,37 +78,48 @@ export const AvatarButton = React.forwardRef(function AvatarButton(
   {
     src,
     square = false,
-    initials,
     alt,
     className,
     ...props
   }: AvatarProps &
     (
-      | Omit<Headless.ButtonProps, "className">
-      | Omit<React.ComponentPropsWithoutRef<typeof Link>, "className">
+      | Omit<Headless.ButtonProps, 'className'>
+      | Omit<React.ComponentPropsWithoutRef<typeof Link>, 'className'>
     ),
-  ref: React.ForwardedRef<HTMLElement>
+  ref: React.ForwardedRef<HTMLElement>,
 ) {
-  let classes = clsx(
+  const classes = clsx(
     className,
-    square ? "rounded-[20%]" : "rounded-full",
-    "relative inline-grid focus:outline-none data-[focus]:outline data-[focus]:outline-2 data-[focus]:outline-offset-2 data-[focus]:outline-blue-500"
+    square ? 'rounded-[20%]' : 'rounded-full',
+    'relative inline-grid focus:outline-none data-[focus]:outline data-[focus]:outline-2 data-[focus]:outline-offset-2 data-[focus]:outline-blue-500',
   );
 
-  return "href" in props ? (
+  return 'href' in props ? (
     <Link
       {...props}
       className={classes}
       ref={ref as React.ForwardedRef<HTMLAnchorElement>}
     >
       <TouchTarget>
-        <Avatar src={src} square={square} initials={initials} alt={alt} />
+        <Avatar
+          src={src}
+          square={square}
+          firstName={props.firstName}
+          lastName={props.lastName}
+          alt={alt}
+        />
       </TouchTarget>
     </Link>
   ) : (
     <Headless.Button {...props} className={classes} ref={ref}>
       <TouchTarget>
-        <Avatar src={src} square={square} initials={initials} alt={alt} />
+        <Avatar
+          src={src}
+          square={square}
+          firstName={props.firstName}
+          lastName={props.lastName}
+          alt={alt}
+        />
       </TouchTarget>
     </Headless.Button>
   );

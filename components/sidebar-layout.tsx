@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import * as Headless from "@headlessui/react";
-import React, { useState } from "react";
-import { NavbarItem } from "./navbar";
+import * as Headless from '@headlessui/react';
+import React, { useState } from 'react';
+import { NavbarItem } from './navbar';
 
 function OpenMenuIcon() {
   return (
@@ -73,7 +73,7 @@ export function SidebarLayout({
   navbar: React.ReactNode;
   sidebar: React.ReactNode;
 }>) {
-  let [showSidebar, setShowSidebar] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(false);
 
   return (
     <div className="relative isolate flex min-h-svh w-full bg-white max-lg:flex-col lg:bg-zinc-100 ">
@@ -101,7 +101,7 @@ export function SidebarLayout({
       {/* Content */}
       <main className="flex flex-1 flex-col pb-2 lg:min-w-0 lg:pl-64 lg:pr-2 lg:pt-2">
         <div className="grow p-6 lg:rounded-lg lg:bg-white lg:p-10 lg:shadow-sm lg:ring-1 lg:ring-zinc-950/5 ">
-          <div className="mx-auto max-w-6xl">{children}</div>
+          <div className="mx-auto max-w-6xl h-full">{children}</div>
         </div>
       </main>
     </div>

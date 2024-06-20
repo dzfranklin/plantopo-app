@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import * as Headless from "@headlessui/react";
-import React, { useState } from "react";
-import { NavbarItem } from "./navbar";
+import * as Headless from '@headlessui/react';
+import React, { useState } from 'react';
+import { NavbarItem } from './navbar';
 
 function OpenMenuIcon() {
   return (
@@ -73,10 +73,10 @@ export function StackedLayout({
   navbar: React.ReactNode;
   sidebar: React.ReactNode;
 }>) {
-  let [showSidebar, setShowSidebar] = useState(false);
+  const [showSidebar, setShowSidebar] = useState(false);
 
   return (
-    <div className="relative isolate flex min-h-svh w-full flex-col bg-white lg:bg-zinc-100 ">
+    <div className="relative isolate flex w-full flex-col bg-white lg:bg-zinc-100 h-full">
       {/* Sidebar on mobile */}
       <MobileSidebar open={showSidebar} close={() => setShowSidebar(false)}>
         {sidebar}
@@ -98,7 +98,9 @@ export function StackedLayout({
       {/* Content */}
       <main className="flex flex-1 flex-col pb-2 lg:px-2">
         <div className="grow p-6 lg:rounded-lg lg:bg-white lg:p-10 lg:shadow-sm lg:ring-1 lg:ring-zinc-950/5 ">
-          <div className="mx-auto max-w-6xl">{children}</div>
+          <div className="mx-auto max-w-6xl h-full max-h-full flex flex-col">
+            {children}
+          </div>
         </div>
       </main>
     </div>

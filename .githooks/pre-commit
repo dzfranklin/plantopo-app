@@ -1,0 +1,15 @@
+#!/usr/bin/env -S deno run --allow-all
+
+const lint = await new Deno.Command('npm', {
+  args: ['run', 'lint'],
+  stdout: 'piped',
+  stderr: 'piped',
+  env: {
+    ...Deno.env.toObject(),
+    FORCE_COLOR: '1',
+  },
+}).output();
+if (lint.code !== 0) {
+  await Deno.stdout.write(lint.stderr);
+  Deno.exit(1);
+}

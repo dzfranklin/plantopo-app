@@ -1,0 +1,3677 @@
+{
+  "@alloc/quick-lru@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/quick-lru",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@alloc/quick-lru",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@alloc/quick-lru/license"
+  },
+  "@babel/code-frame@7.24.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel",
+    "publisher": "The Babel Team",
+    "url": "https://babel.dev/team",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/code-frame",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/code-frame/LICENSE"
+  },
+  "@babel/helper-validator-identifier@7.24.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel",
+    "publisher": "The Babel Team",
+    "url": "https://babel.dev/team",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/helper-validator-identifier",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/helper-validator-identifier/LICENSE"
+  },
+  "@babel/highlight@7.24.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel",
+    "publisher": "The Babel Team",
+    "url": "https://babel.dev/team",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/LICENSE"
+  },
+  "@babel/runtime@7.24.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/babel/babel",
+    "publisher": "The Babel Team",
+    "url": "https://babel.dev/team",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/runtime",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/runtime/LICENSE"
+  },
+  "@eslint-community/eslint-utils@4.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint-community/eslint-utils",
+    "publisher": "Toru Nagashima",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@eslint-community/eslint-utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@eslint-community/eslint-utils/LICENSE"
+  },
+  "@eslint-community/regexpp@4.10.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint-community/regexpp",
+    "publisher": "Toru Nagashima",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@eslint-community/regexpp",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@eslint-community/regexpp/LICENSE"
+  },
+  "@eslint/eslintrc@2.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint/eslintrc",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@eslint/eslintrc",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@eslint/eslintrc/LICENSE"
+  },
+  "@eslint/js@8.57.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint/eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@eslint/js",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@eslint/js/LICENSE"
+  },
+  "@floating-ui/core@1.6.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "publisher": "atomiks",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@floating-ui/core",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@floating-ui/core/LICENSE"
+  },
+  "@floating-ui/dom@1.6.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "publisher": "atomiks",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@floating-ui/dom",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@floating-ui/dom/LICENSE"
+  },
+  "@floating-ui/react-dom@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "publisher": "atomiks",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@floating-ui/react/node_modules/@floating-ui/react-dom",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@floating-ui/react/node_modules/@floating-ui/react-dom/LICENSE"
+  },
+  "@floating-ui/react@0.26.17": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "publisher": "atomiks",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@floating-ui/react",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@floating-ui/react/LICENSE"
+  },
+  "@floating-ui/utils@0.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/floating-ui/floating-ui",
+    "publisher": "atomiks",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@floating-ui/utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@floating-ui/utils/LICENSE"
+  },
+  "@headlessui/react@2.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tailwindlabs/headlessui",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/LICENSE"
+  },
+  "@heroicons/react@2.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tailwindlabs/heroicons",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@heroicons/react",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@heroicons/react/LICENSE"
+  },
+  "@humanwhocodes/config-array@0.11.14": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/humanwhocodes/config-array",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@humanwhocodes/config-array",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@humanwhocodes/config-array/LICENSE"
+  },
+  "@humanwhocodes/module-importer@1.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/humanwhocodes/module-importer",
+    "publisher": "Nicholas C. Zaks",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@humanwhocodes/module-importer",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@humanwhocodes/module-importer/LICENSE"
+  },
+  "@humanwhocodes/object-schema@2.0.3": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/humanwhocodes/object-schema",
+    "publisher": "Nicholas C. Zakas",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@humanwhocodes/object-schema",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@humanwhocodes/object-schema/LICENSE"
+  },
+  "@isaacs/cliui@8.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/cliui",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@isaacs/cliui",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@isaacs/cliui/LICENSE.txt"
+  },
+  "@jridgewell/gen-mapping@0.3.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/gen-mapping",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/gen-mapping",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/gen-mapping/LICENSE"
+  },
+  "@jridgewell/resolve-uri@3.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/resolve-uri",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/resolve-uri",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/resolve-uri/LICENSE"
+  },
+  "@jridgewell/set-array@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/set-array",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/set-array",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/set-array/LICENSE"
+  },
+  "@jridgewell/sourcemap-codec@1.4.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/sourcemap-codec",
+    "publisher": "Rich Harris",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/sourcemap-codec",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/sourcemap-codec/LICENSE"
+  },
+  "@jridgewell/trace-mapping@0.3.25": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jridgewell/trace-mapping",
+    "publisher": "Justin Ridgewell",
+    "email": "justin@ridgewell.name",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/trace-mapping",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@jridgewell/trace-mapping/LICENSE"
+  },
+  "@mapbox/polyline@1.2.1": {
+    "licenses": "BSD*",
+    "repository": "https://github.com/mapbox/polyline",
+    "publisher": "Mapbox",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@mapbox/polyline",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@mapbox/polyline/LICENSE"
+  },
+  "@next/env@14.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/next.js",
+    "publisher": "Next.js Team",
+    "email": "support@vercel.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@next/env",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@next/env/README.md"
+  },
+  "@next/eslint-plugin-next@14.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/next.js",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@next/eslint-plugin-next",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@next/eslint-plugin-next/README.md"
+  },
+  "@next/swc-darwin-arm64@14.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/next.js",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@next/swc-darwin-arm64",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@next/swc-darwin-arm64/README.md"
+  },
+  "@nodelib/fs.scandir@2.1.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.scandir",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@nodelib/fs.scandir",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@nodelib/fs.scandir/LICENSE"
+  },
+  "@nodelib/fs.stat@2.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.stat",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@nodelib/fs.stat",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@nodelib/fs.stat/LICENSE"
+  },
+  "@nodelib/fs.walk@1.2.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@nodelib/fs.walk",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@nodelib/fs.walk/LICENSE"
+  },
+  "@pkgjs/parseargs@0.11.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pkgjs/parseargs",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@pkgjs/parseargs",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@pkgjs/parseargs/LICENSE"
+  },
+  "@react-aria/focus@3.17.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/adobe/react-spectrum",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/focus",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/focus/LICENSE"
+  },
+  "@react-aria/interactions@3.21.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/adobe/react-spectrum",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/LICENSE"
+  },
+  "@react-aria/ssr@3.9.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/adobe/react-spectrum",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-aria/ssr",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-aria/ssr/LICENSE"
+  },
+  "@react-aria/utils@3.24.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/adobe/react-spectrum",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-aria/utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-aria/utils/LICENSE"
+  },
+  "@react-stately/utils@3.10.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/adobe/react-spectrum",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-aria/utils/node_modules/@react-stately/utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-aria/utils/node_modules/@react-stately/utils/LICENSE"
+  },
+  "@react-types/shared@3.23.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/adobe/react-spectrum",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-types/shared",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@react-aria/interactions/node_modules/@react-types/shared/LICENSE"
+  },
+  "@rushstack/eslint-patch@1.10.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/microsoft/rushstack",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@rushstack/eslint-patch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@rushstack/eslint-patch/LICENSE"
+  },
+  "@swc/counter@0.1.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/swc-project/pkgs",
+    "publisher": "강동윤",
+    "email": "kdy1997.dev@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@swc/counter",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@swc/counter/README.md"
+  },
+  "@swc/helpers@0.5.11": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/swc-project/swc",
+    "publisher": "강동윤",
+    "email": "kdy1997.dev@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@swc/helpers",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@swc/helpers/LICENSE"
+  },
+  "@swc/helpers@0.5.5": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/swc-project/swc",
+    "publisher": "강동윤",
+    "email": "kdy1997.dev@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/next/node_modules/@swc/helpers",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/next/node_modules/@swc/helpers/LICENSE"
+  },
+  "@tailwindcss/aspect-ratio@0.4.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tailwindlabs/tailwindcss-aspect-ratio",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/aspect-ratio",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/aspect-ratio/README.md"
+  },
+  "@tailwindcss/forms@0.5.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tailwindlabs/tailwindcss-forms",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/forms",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/forms/LICENSE"
+  },
+  "@tailwindcss/typography@0.5.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tailwindlabs/tailwindcss-typography",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/typography",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/typography/LICENSE"
+  },
+  "@tanstack/react-virtual@3.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tanstack/virtual",
+    "publisher": "Tanner Linsley",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@tanstack/react-virtual",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@headlessui/react/node_modules/@tanstack/react-virtual/LICENSE"
+  },
+  "@tanstack/virtual-core@3.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tanstack/virtual",
+    "publisher": "Tanner Linsley",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@tanstack/virtual-core",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@tanstack/virtual-core/LICENSE"
+  },
+  "@turf/clean-coords@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Turfjs/turf",
+    "publisher": "Turf Authors",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@turf/clean-coords",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@turf/clean-coords/LICENSE"
+  },
+  "@turf/clone@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Turfjs/turf",
+    "publisher": "Turf Authors",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@turf/clone",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@turf/clone/LICENSE"
+  },
+  "@turf/helpers@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Turfjs/turf",
+    "publisher": "Turf Authors",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@turf/helpers",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@turf/helpers/LICENSE"
+  },
+  "@turf/invariant@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Turfjs/turf",
+    "publisher": "Turf Authors",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@turf/invariant",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@turf/invariant/LICENSE"
+  },
+  "@turf/meta@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Turfjs/turf",
+    "publisher": "Turf Authors",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@turf/meta",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@turf/meta/LICENSE"
+  },
+  "@turf/simplify@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Turfjs/turf",
+    "publisher": "Turf Authors",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@turf/simplify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@turf/simplify/LICENSE"
+  },
+  "@types/geojson@7946.0.14": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/geojson",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/geojson/LICENSE"
+  },
+  "@types/json5@0.0.29": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "publisher": "Jason Swearingen",
+    "email": "https://jasonswearingen.github.io",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/json5",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/json5/README.md"
+  },
+  "@types/mapbox__polyline@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/mapbox__polyline",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/mapbox__polyline/LICENSE"
+  },
+  "@types/minimist@1.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/minimist",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/minimist/LICENSE"
+  },
+  "@types/node@20.14.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/node",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/node/LICENSE"
+  },
+  "@types/normalize-package-data@2.4.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/normalize-package-data",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/normalize-package-data/LICENSE"
+  },
+  "@types/prop-types@15.7.12": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/prop-types",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/prop-types/LICENSE"
+  },
+  "@types/react-dom@18.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/react-dom",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/react-dom/LICENSE"
+  },
+  "@types/react@18.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@types/react",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@types/react/LICENSE"
+  },
+  "@typescript-eslint/eslint-plugin@7.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/LICENSE"
+  },
+  "@typescript-eslint/parser@7.2.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/parser",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/parser/LICENSE"
+  },
+  "@typescript-eslint/scope-manager@7.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/scope-manager",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/scope-manager/LICENSE"
+  },
+  "@typescript-eslint/scope-manager@7.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/scope-manager",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/scope-manager/LICENSE"
+  },
+  "@typescript-eslint/type-utils@7.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils/LICENSE"
+  },
+  "@typescript-eslint/types@7.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/types",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/types/LICENSE"
+  },
+  "@typescript-eslint/types@7.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/types",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/types/LICENSE"
+  },
+  "@typescript-eslint/typescript-estree@7.13.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils/node_modules/@typescript-eslint/typescript-estree",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/type-utils/node_modules/@typescript-eslint/typescript-estree/LICENSE"
+  },
+  "@typescript-eslint/typescript-estree@7.2.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/typescript-estree",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/typescript-estree/LICENSE"
+  },
+  "@typescript-eslint/utils@7.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/utils/LICENSE"
+  },
+  "@typescript-eslint/visitor-keys@7.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/visitor-keys",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/@typescript-eslint/visitor-keys/LICENSE"
+  },
+  "@typescript-eslint/visitor-keys@7.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/typescript-eslint/typescript-eslint",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/visitor-keys",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/visitor-keys/LICENSE"
+  },
+  "@ungap/structured-clone@1.2.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/ungap/structured-clone",
+    "publisher": "Andrea Giammarchi",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@ungap/structured-clone",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@ungap/structured-clone/LICENSE"
+  },
+  "@workos-inc/authkit-nextjs@0.6.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/workos/authkit-nextjs",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/authkit-nextjs",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/authkit-nextjs/LICENSE"
+  },
+  "@workos-inc/node@6.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/workos-inc/workos-node",
+    "publisher": "WorkOS",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/node",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@workos-inc/node/LICENSE"
+  },
+  "acorn-jsx@5.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/acornjs/acorn-jsx",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/acorn-jsx",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/acorn-jsx/LICENSE"
+  },
+  "acorn@8.12.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/acornjs/acorn",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/acorn",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/acorn/LICENSE"
+  },
+  "ajv@6.12.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ajv-validator/ajv",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ajv",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ajv/LICENSE"
+  },
+  "ansi-regex@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ansi-regex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ansi-regex/license"
+  },
+  "ansi-regex@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string-width/node_modules/ansi-regex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string-width/node_modules/ansi-regex/license"
+  },
+  "ansi-styles@3.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/ansi-styles",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/ansi-styles/license"
+  },
+  "ansi-styles@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ansi-styles",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ansi-styles/license"
+  },
+  "ansi-styles@6.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/ansi-styles",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/wrap-ansi/node_modules/ansi-styles",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/wrap-ansi/node_modules/ansi-styles/license"
+  },
+  "any-promise@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevinbeaty/any-promise",
+    "publisher": "Kevin Beaty",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/any-promise",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/any-promise/LICENSE"
+  },
+  "anymatch@3.1.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/micromatch/anymatch",
+    "publisher": "Elan Shanker",
+    "url": "https://github.com/es128",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/anymatch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/anymatch/LICENSE"
+  },
+  "arg@5.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/arg",
+    "publisher": "Josh Junon",
+    "email": "junon@wavetilt.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/arg",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/arg/LICENSE.md"
+  },
+  "argparse@2.0.1": {
+    "licenses": "Python-2.0",
+    "repository": "https://github.com/nodeca/argparse",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/argparse",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/argparse/LICENSE"
+  },
+  "aria-query@5.3.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/A11yance/aria-query",
+    "publisher": "Jesse Beach",
+    "email": "splendidnoise@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/aria-query",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/aria-query/LICENSE"
+  },
+  "array-buffer-byte-length@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/array-buffer-byte-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array-buffer-byte-length",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array-buffer-byte-length/LICENSE"
+  },
+  "array-includes@3.1.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/array-includes",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array-includes",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array-includes/LICENSE"
+  },
+  "array-union@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/array-union",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array-union",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array-union/license"
+  },
+  "array.prototype.findlast@1.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Array.prototype.findLast",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.findlast",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.findlast/LICENSE"
+  },
+  "array.prototype.findlastindex@1.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Array.prototype.findLastIndex",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.findlastindex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.findlastindex/LICENSE"
+  },
+  "array.prototype.flat@1.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Array.prototype.flat",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.flat",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.flat/LICENSE"
+  },
+  "array.prototype.flatmap@1.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Array.prototype.flatMap",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.flatmap",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.flatmap/LICENSE"
+  },
+  "array.prototype.toreversed@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Array.prototype.toReversed",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.toreversed",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.toreversed/LICENSE"
+  },
+  "array.prototype.tosorted@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Array.prototype.toSorted",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.tosorted",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/array.prototype.tosorted/LICENSE"
+  },
+  "arraybuffer.prototype.slice@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/ArrayBuffer.prototype.slice",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/arraybuffer.prototype.slice",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/arraybuffer.prototype.slice/LICENSE"
+  },
+  "arrify@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/arrify",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/arrify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/arrify/license"
+  },
+  "ast-types-flow@0.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kyldvs/ast-types-flow",
+    "publisher": "kyldvs",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ast-types-flow",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ast-types-flow/LICENSE"
+  },
+  "available-typed-arrays@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/available-typed-arrays",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/available-typed-arrays",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/available-typed-arrays/LICENSE"
+  },
+  "axe-core@4.7.0": {
+    "licenses": "MPL-2.0",
+    "repository": "https://github.com/dequelabs/axe-core",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/axe-core",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/axe-core/LICENSE"
+  },
+  "axobject-query@3.2.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/A11yance/axobject-query",
+    "publisher": "Jesse Beach",
+    "email": "splendidnoise@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/axobject-query",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/axobject-query/LICENSE"
+  },
+  "balanced-match@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/balanced-match",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/balanced-match",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/balanced-match/LICENSE.md"
+  },
+  "binary-extensions@2.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/binary-extensions",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/binary-extensions",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/binary-extensions/license"
+  },
+  "brace-expansion@1.1.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/brace-expansion",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/brace-expansion/LICENSE"
+  },
+  "brace-expansion@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/brace-expansion",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/glob/node_modules/brace-expansion",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/glob/node_modules/brace-expansion/LICENSE"
+  },
+  "braces@3.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/braces",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/braces",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/braces/LICENSE"
+  },
+  "busboy@1.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mscdex/busboy",
+    "publisher": "Brian White",
+    "email": "mscdex@mscdex.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/busboy",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/busboy/LICENSE"
+  },
+  "call-bind@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/call-bind",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/call-bind",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/call-bind/LICENSE"
+  },
+  "callsites@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/callsites",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/callsites",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/callsites/license"
+  },
+  "camelcase-css@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/stevenvachon/camelcase-css",
+    "publisher": "Steven Vachon",
+    "email": "contact@svachon.com",
+    "url": "https://www.svachon.com/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/camelcase-css",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/camelcase-css/license"
+  },
+  "camelcase-keys@6.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/camelcase-keys",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/camelcase-keys",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/camelcase-keys/license"
+  },
+  "camelcase@5.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/camelcase",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/camelcase",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/camelcase/license"
+  },
+  "caniuse-lite@1.0.30001634": {
+    "licenses": "CC-BY-4.0",
+    "repository": "https://github.com/browserslist/caniuse-lite",
+    "publisher": "Ben Briggs",
+    "email": "beneb.info@gmail.com",
+    "url": "http://beneb.info",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/caniuse-lite",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/caniuse-lite/LICENSE"
+  },
+  "chalk@2.4.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/chalk",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/chalk/license"
+  },
+  "chalk@4.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/chalk",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/chalk",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/chalk/license"
+  },
+  "chokidar@3.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/chokidar",
+    "publisher": "Paul Miller",
+    "url": "https://paulmillr.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/chokidar",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/chokidar/LICENSE"
+  },
+  "client-only@0.0.1": {
+    "licenses": "MIT",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/client-only"
+  },
+  "clsx@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/clsx",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/clsx",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/clsx/license"
+  },
+  "color-convert@1.9.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/color-convert",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/color-convert/LICENSE"
+  },
+  "color-convert@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Qix-/color-convert",
+    "publisher": "Heather Arthur",
+    "email": "fayearthur@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/color-convert",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/color-convert/LICENSE"
+  },
+  "color-name@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dfcreative/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/color-name",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/color-name/LICENSE"
+  },
+  "color-name@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/colorjs/color-name",
+    "publisher": "DY",
+    "email": "dfcreative@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/color-name",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/color-name/LICENSE"
+  },
+  "commander@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tj/commander.js",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/commander",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/commander/LICENSE"
+  },
+  "concat-map@0.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/node-concat-map",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/concat-map",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/concat-map/LICENSE"
+  },
+  "cookie@0.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jshttp/cookie",
+    "publisher": "Roman Shtylman",
+    "email": "shtylman@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/cookie",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/cookie/LICENSE"
+  },
+  "cross-spawn@7.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/moxystudio/node-cross-spawn",
+    "publisher": "André Cruz",
+    "email": "andre@moxy.studio",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/cross-spawn",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/cross-spawn/LICENSE"
+  },
+  "cssesc@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/cssesc",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/cssesc",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/cssesc/LICENSE-MIT.txt"
+  },
+  "csstype@3.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/frenic/csstype",
+    "publisher": "Fredrik Nicol",
+    "email": "fredrik.nicol@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/csstype",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/csstype/LICENSE"
+  },
+  "damerau-levenshtein@1.0.8": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/tad-lispy/node-damerau-levenshtein",
+    "publisher": "The Spanish Inquisition",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/damerau-levenshtein",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/damerau-levenshtein/LICENSE"
+  },
+  "data-view-buffer@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/data-view-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/data-view-buffer",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/data-view-buffer/LICENSE"
+  },
+  "data-view-byte-length@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/data-view-byte-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/data-view-byte-length",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/data-view-byte-length/LICENSE"
+  },
+  "data-view-byte-offset@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/data-view-byte-offset",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/data-view-byte-offset",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/data-view-byte-offset/LICENSE"
+  },
+  "debug@3.2.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/debug",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-import-resolver-node/node_modules/debug",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-import-resolver-node/node_modules/debug/LICENSE"
+  },
+  "debug@4.3.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/debug-js/debug",
+    "publisher": "Josh Junon",
+    "url": "https://github.com/qix-",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/debug",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/debug/LICENSE"
+  },
+  "decamelize-keys@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decamelize-keys",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/decamelize-keys",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/decamelize-keys/license"
+  },
+  "decamelize@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decamelize",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/decamelize",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/decamelize/license"
+  },
+  "deep-equal@2.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/node-deep-equal",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/deep-equal",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/deep-equal/LICENSE"
+  },
+  "deep-is@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thlorenz/deep-is",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/deep-is",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/deep-is/LICENSE"
+  },
+  "define-data-property@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/define-data-property",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/define-data-property",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/define-data-property/LICENSE"
+  },
+  "define-properties@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/define-properties",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/define-properties",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/define-properties/LICENSE"
+  },
+  "dequal@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/dequal",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/dequal",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/dequal/license"
+  },
+  "didyoumean@1.2.2": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/dcporter/didyoumean.js",
+    "publisher": "Dave Porter",
+    "email": "dcporter@gmail.com",
+    "url": "http://dcporter.net/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/didyoumean",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/didyoumean/LICENSE"
+  },
+  "dir-glob@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevva/dir-glob",
+    "publisher": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/dir-glob",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/dir-glob/license"
+  },
+  "dlv@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/developit/dlv",
+    "publisher": "Jason Miller",
+    "email": "jason@developit.ca",
+    "url": "http://jasonformat.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/dlv",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/dlv/README.md"
+  },
+  "doctrine@2.1.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/doctrine",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-import/node_modules/doctrine",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-import/node_modules/doctrine/LICENSE"
+  },
+  "doctrine@3.0.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/doctrine",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/doctrine",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/doctrine/LICENSE"
+  },
+  "eastasianwidth@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/komagata/eastasianwidth",
+    "publisher": "Masaki Komagata",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eastasianwidth",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eastasianwidth/README.md"
+  },
+  "emoji-regex@8.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string-width-cjs/node_modules/emoji-regex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string-width-cjs/node_modules/emoji-regex/LICENSE-MIT.txt"
+  },
+  "emoji-regex@9.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/emoji-regex",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/emoji-regex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/emoji-regex/LICENSE-MIT.txt"
+  },
+  "enhanced-resolve@5.17.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/webpack/enhanced-resolve",
+    "publisher": "Tobias Koppers @sokra",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/enhanced-resolve",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/enhanced-resolve/LICENSE"
+  },
+  "error-ex@1.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/qix-/node-error-ex",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/error-ex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/error-ex/LICENSE"
+  },
+  "es-abstract@1.23.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-abstract",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-abstract",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-abstract/LICENSE"
+  },
+  "es-define-property@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-define-property",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-define-property",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-define-property/LICENSE"
+  },
+  "es-errors@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-errors",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-errors",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-errors/LICENSE"
+  },
+  "es-get-iterator@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-get-iterator",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-get-iterator",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-get-iterator/LICENSE"
+  },
+  "es-iterator-helpers@1.0.19": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/iterator-helpers",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-iterator-helpers",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-iterator-helpers/LICENSE"
+  },
+  "es-object-atoms@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-object-atoms",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-object-atoms",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-object-atoms/LICENSE"
+  },
+  "es-set-tostringtag@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/es-set-tostringtag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-set-tostringtag",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-set-tostringtag/LICENSE"
+  },
+  "es-shim-unscopables@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-shim-unscopables",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-shim-unscopables",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-shim-unscopables/LICENSE"
+  },
+  "es-to-primitive@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-to-primitive",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/es-to-primitive",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/es-to-primitive/LICENSE"
+  },
+  "escape-string-regexp@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/escape-string-regexp",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/escape-string-regexp/license"
+  },
+  "escape-string-regexp@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/escape-string-regexp",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/escape-string-regexp/license"
+  },
+  "eslint-config-next@14.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/next.js",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-config-next"
+  },
+  "eslint-config-prettier@9.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/prettier/eslint-config-prettier",
+    "publisher": "Simon Lydell",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-config-prettier",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-config-prettier/LICENSE"
+  },
+  "eslint-import-resolver-node@0.3.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/import-js/eslint-plugin-import",
+    "publisher": "Ben Mosher",
+    "url": "me@benmosher.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-import-resolver-node",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-import-resolver-node/LICENSE"
+  },
+  "eslint-import-resolver-typescript@3.6.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/import-js/eslint-import-resolver-typescript",
+    "publisher": "Alex Gorbatchev",
+    "email": "alex.gorbatchev@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-import-resolver-typescript",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-import-resolver-typescript/LICENSE"
+  },
+  "eslint-module-utils@2.8.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/import-js/eslint-plugin-import",
+    "publisher": "Ben Mosher",
+    "email": "me@benmosher.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-module-utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-module-utils/LICENSE"
+  },
+  "eslint-plugin-import@2.29.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/import-js/eslint-plugin-import",
+    "publisher": "Ben Mosher",
+    "email": "me@benmosher.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-import",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-import/LICENSE"
+  },
+  "eslint-plugin-jsx-a11y@6.8.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jsx-eslint/eslint-plugin-jsx-a11y",
+    "publisher": "Ethan Cohen",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-jsx-a11y",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-jsx-a11y/LICENSE.md"
+  },
+  "eslint-plugin-react-hooks@4.6.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-react-hooks",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-react-hooks/LICENSE"
+  },
+  "eslint-plugin-react@7.34.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jsx-eslint/eslint-plugin-react",
+    "publisher": "Yannick Croissant",
+    "email": "yannick.croissant+npm@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-react",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-react/LICENSE"
+  },
+  "eslint-scope@7.2.2": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/eslint/eslint-scope",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-scope",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-scope/LICENSE"
+  },
+  "eslint-visitor-keys@3.4.3": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/eslint/eslint-visitor-keys",
+    "publisher": "Toru Nagashima",
+    "url": "https://github.com/mysticatea",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-visitor-keys",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-visitor-keys/LICENSE"
+  },
+  "eslint@8.57.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eslint/eslint",
+    "publisher": "Nicholas C. Zakas",
+    "email": "nicholas+npm@nczconsulting.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint/LICENSE"
+  },
+  "espree@9.6.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/eslint/espree",
+    "publisher": "Nicholas C. Zakas",
+    "email": "nicholas+npm@nczconsulting.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/espree",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/espree/LICENSE"
+  },
+  "esquery@1.5.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/estools/esquery",
+    "publisher": "Joel Feenstra",
+    "email": "jrfeenst+esquery@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/esquery",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/esquery/license.txt"
+  },
+  "esrecurse@4.3.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/estools/esrecurse",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/esrecurse",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/esrecurse/README.md"
+  },
+  "estraverse@5.3.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/estools/estraverse",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/estraverse",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/estraverse/LICENSE.BSD"
+  },
+  "esutils@2.0.3": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/estools/esutils",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/esutils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/esutils/LICENSE.BSD"
+  },
+  "fast-deep-equal@3.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-deep-equal",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fast-deep-equal",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fast-deep-equal/LICENSE"
+  },
+  "fast-glob@3.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mrmlnc/fast-glob",
+    "publisher": "Denis Malinochkin",
+    "url": "https://mrmlnc.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fast-glob",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fast-glob/LICENSE"
+  },
+  "fast-json-stable-stringify@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/fast-json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fast-json-stable-stringify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fast-json-stable-stringify/LICENSE"
+  },
+  "fast-levenshtein@2.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/hiddentao/fast-levenshtein",
+    "publisher": "Ramesh Nair",
+    "email": "ram@hiddentao.com",
+    "url": "http://www.hiddentao.com/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fast-levenshtein",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fast-levenshtein/LICENSE.md"
+  },
+  "fastq@1.17.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/mcollina/fastq",
+    "publisher": "Matteo Collina",
+    "email": "hello@matteocollina.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fastq",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fastq/LICENSE"
+  },
+  "file-entry-cache@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/royriojas/file-entry-cache",
+    "publisher": "Roy Riojas",
+    "url": "http://royriojas.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/file-entry-cache",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/file-entry-cache/LICENSE"
+  },
+  "fill-range@7.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/fill-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fill-range",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fill-range/LICENSE"
+  },
+  "find-up@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/find-up",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/find-up",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/find-up/license"
+  },
+  "find-up@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/find-up",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/find-up",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/find-up/license"
+  },
+  "flat-cache@3.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jaredwray/flat-cache",
+    "publisher": "Jared Wray",
+    "url": "https://jaredwray.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/flat-cache",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/flat-cache/LICENSE"
+  },
+  "flatted@3.3.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/WebReflection/flatted",
+    "publisher": "Andrea Giammarchi",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/flatted",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/flatted/LICENSE"
+  },
+  "for-each@0.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Raynos/for-each",
+    "publisher": "Raynos",
+    "email": "raynos2@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/for-each",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/for-each/LICENSE"
+  },
+  "foreground-child@3.2.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/foreground-child",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/foreground-child",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/foreground-child/LICENSE"
+  },
+  "framer-motion@11.2.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/framer/motion",
+    "publisher": "Framer",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/framer-motion",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/framer-motion/LICENSE.md"
+  },
+  "fs.realpath@1.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/fs.realpath",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fs.realpath",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fs.realpath/LICENSE"
+  },
+  "fsevents@2.3.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/fsevents/fsevents",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fsevents",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fsevents/LICENSE"
+  },
+  "function-bind@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/Raynos/function-bind",
+    "publisher": "Raynos",
+    "email": "raynos2@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/function-bind",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/function-bind/LICENSE"
+  },
+  "function.prototype.name@1.1.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Function.prototype.name",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/function.prototype.name",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/function.prototype.name/LICENSE"
+  },
+  "functions-have-names@1.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/functions-have-names",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/functions-have-names",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/functions-have-names/LICENSE"
+  },
+  "geojson@0.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/caseycesari/geojson.js",
+    "publisher": "Casey Cesari",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/geojson",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/geojson/LICENSE"
+  },
+  "get-intrinsic@1.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/get-intrinsic",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/get-intrinsic",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/get-intrinsic/LICENSE"
+  },
+  "get-symbol-description@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/get-symbol-description",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/get-symbol-description",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/get-symbol-description/LICENSE"
+  },
+  "get-tsconfig@4.7.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/privatenumber/get-tsconfig",
+    "publisher": "Hiroki Osame",
+    "email": "hiroki.osame@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/get-tsconfig",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/get-tsconfig/LICENSE"
+  },
+  "glob-parent@5.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/gulpjs/glob-parent",
+    "publisher": "Gulp Team",
+    "email": "team@gulpjs.com",
+    "url": "https://gulpjs.com/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/fast-glob/node_modules/glob-parent",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/fast-glob/node_modules/glob-parent/LICENSE"
+  },
+  "glob-parent@6.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/gulpjs/glob-parent",
+    "publisher": "Gulp Team",
+    "email": "team@gulpjs.com",
+    "url": "https://gulpjs.com/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/glob-parent",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/glob-parent/LICENSE"
+  },
+  "glob@10.3.10": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/glob",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/glob/LICENSE"
+  },
+  "glob@7.2.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-glob",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/rimraf/node_modules/glob",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/rimraf/node_modules/glob/LICENSE"
+  },
+  "globals@13.24.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/globals",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/globals",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/globals/license"
+  },
+  "globalthis@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/System.global",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/globalthis",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/globalthis/LICENSE"
+  },
+  "globby@11.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/globby",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/globby",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/globby/license"
+  },
+  "gopd@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/gopd",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/gopd",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/gopd/LICENSE"
+  },
+  "graceful-fs@4.2.11": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/graceful-fs",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/graceful-fs/LICENSE"
+  },
+  "graphemer@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/flmnt/graphemer",
+    "publisher": "Matt Davies",
+    "email": "matt@filament.so",
+    "url": "https://github.com/mattpauldavies",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/graphemer",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/graphemer/LICENSE"
+  },
+  "hard-rejection@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/hard-rejection",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/hard-rejection",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/hard-rejection/license"
+  },
+  "has-bigints@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/has-bigints",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/has-bigints",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/has-bigints/LICENSE"
+  },
+  "has-flag@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/has-flag",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/has-flag/license"
+  },
+  "has-flag@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/has-flag",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/has-flag",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/has-flag/license"
+  },
+  "has-property-descriptors@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-property-descriptors",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/has-property-descriptors",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/has-property-descriptors/LICENSE"
+  },
+  "has-proto@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-proto",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/has-proto",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/has-proto/LICENSE"
+  },
+  "has-symbols@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-symbols",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/has-symbols",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/has-symbols/LICENSE"
+  },
+  "has-tostringtag@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-tostringtag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/has-tostringtag",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/has-tostringtag/LICENSE"
+  },
+  "hasown@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/hasOwn",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/hasown",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/hasown/LICENSE"
+  },
+  "hosted-git-info@2.8.9": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/hosted-git-info",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/hosted-git-info/LICENSE"
+  },
+  "hosted-git-info@4.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/hosted-git-info",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/hosted-git-info/LICENSE"
+  },
+  "ignore@5.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kaelzhang/node-ignore",
+    "publisher": "kael",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ignore",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ignore/LICENSE-MIT"
+  },
+  "import-fresh@3.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/import-fresh",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/import-fresh",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/import-fresh/license"
+  },
+  "imurmurhash@0.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jensyt/imurmurhash-js",
+    "publisher": "Jens Taylor",
+    "email": "jensyt@gmail.com",
+    "url": "https://github.com/homebrewing",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/imurmurhash",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/imurmurhash/README.md"
+  },
+  "indent-string@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/indent-string",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/indent-string",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/indent-string/license"
+  },
+  "inflight@1.0.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/inflight",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/inflight",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/inflight/LICENSE"
+  },
+  "inherits@2.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/inherits",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/inherits",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/inherits/LICENSE"
+  },
+  "inter-ui@4.0.2": {
+    "licenses": "OFL-1.1",
+    "repository": "https://github.com/philipbelesky/inter-ui",
+    "publisher": "Rasmus Andersson",
+    "url": "https://rsms.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/inter-ui",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/inter-ui/LICENSE.txt"
+  },
+  "internal-slot@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/internal-slot",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/internal-slot",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/internal-slot/LICENSE"
+  },
+  "iron-session@8.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vvo/iron-session",
+    "publisher": "Vincent Voyer",
+    "email": "vincent@codeagain.com",
+    "url": "https://github.com/vvo",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/iron-session",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/iron-session/LICENSE.md"
+  },
+  "iron-webcrypto@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/brc-dd/iron-webcrypto",
+    "publisher": "Divyansh Singh",
+    "email": "brc-dd@hotmail.com",
+    "url": "https://github.com/brc-dd",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/iron-webcrypto",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/iron-webcrypto/LICENSE.md"
+  },
+  "is-arguments@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-arguments",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-arguments",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-arguments/LICENSE"
+  },
+  "is-array-buffer@3.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-array-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-array-buffer",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-array-buffer/LICENSE"
+  },
+  "is-arrayish@0.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/qix-/node-is-arrayish",
+    "publisher": "Qix",
+    "url": "http://github.com/qix-",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-arrayish",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-arrayish/LICENSE"
+  },
+  "is-async-function@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-async-function",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-async-function",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-async-function/LICENSE"
+  },
+  "is-bigint@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-bigint",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-bigint",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-bigint/LICENSE"
+  },
+  "is-binary-path@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-binary-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-binary-path",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-binary-path/license"
+  },
+  "is-boolean-object@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-boolean-object",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-boolean-object",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-boolean-object/LICENSE"
+  },
+  "is-callable@1.2.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-callable",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-callable",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-callable/LICENSE"
+  },
+  "is-core-module@2.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-core-module",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-core-module",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-core-module/LICENSE"
+  },
+  "is-data-view@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-data-view",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-data-view",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-data-view/LICENSE"
+  },
+  "is-date-object@1.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-date-object",
+    "publisher": "Jordan Harband",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-date-object",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-date-object/LICENSE"
+  },
+  "is-extglob@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-extglob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-extglob",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-extglob/LICENSE"
+  },
+  "is-finalizationregistry@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-finalizationregistry",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-finalizationregistry",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-finalizationregistry/LICENSE"
+  },
+  "is-fullwidth-code-point@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-fullwidth-code-point",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-fullwidth-code-point",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-fullwidth-code-point/license"
+  },
+  "is-generator-function@1.0.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-generator-function",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-generator-function",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-generator-function/LICENSE"
+  },
+  "is-glob@4.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/is-glob",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-glob",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-glob/LICENSE"
+  },
+  "is-map@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-map",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-map",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-map/LICENSE"
+  },
+  "is-negative-zero@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-negative-zero",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-negative-zero",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-negative-zero/LICENSE"
+  },
+  "is-number-object@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-number-object",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-number-object",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-number-object/LICENSE"
+  },
+  "is-number@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/is-number",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-number",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-number/LICENSE"
+  },
+  "is-path-inside@3.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-path-inside",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-path-inside",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-path-inside/license"
+  },
+  "is-plain-obj@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is-plain-obj",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-plain-obj",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-plain-obj/license"
+  },
+  "is-regex@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-regex",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-regex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-regex/LICENSE"
+  },
+  "is-set@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-set",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-set",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-set/LICENSE"
+  },
+  "is-shared-array-buffer@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-shared-array-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-shared-array-buffer",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-shared-array-buffer/LICENSE"
+  },
+  "is-string@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/is-string",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-string",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-string/LICENSE"
+  },
+  "is-symbol@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-symbol",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-symbol",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-symbol/LICENSE"
+  },
+  "is-typed-array@1.1.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-typed-array",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-typed-array",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-typed-array/LICENSE"
+  },
+  "is-weakmap@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-weakmap",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-weakmap",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-weakmap/LICENSE"
+  },
+  "is-weakref@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-weakref",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-weakref",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-weakref/LICENSE"
+  },
+  "is-weakset@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/is-weakset",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/is-weakset",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/is-weakset/LICENSE"
+  },
+  "isarray@2.0.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/juliangruber/isarray",
+    "publisher": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/isarray",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/isarray/LICENSE"
+  },
+  "isexe@2.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/isexe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/isexe",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/isexe/LICENSE"
+  },
+  "iterator.prototype@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/Iterator.prototype",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/iterator.prototype",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/iterator.prototype/LICENSE"
+  },
+  "jackspeak@2.3.6": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/jackspeak",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/jackspeak",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/jackspeak/LICENSE.md"
+  },
+  "jiti@1.21.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/unjs/jiti",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/jiti",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/jiti/LICENSE"
+  },
+  "jose@5.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/panva/jose",
+    "publisher": "Filip Skokan",
+    "email": "panva.ip@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/jose",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/jose/LICENSE.md"
+  },
+  "js-tokens@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/js-tokens",
+    "publisher": "Simon Lydell",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/js-tokens",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/js-tokens/LICENSE"
+  },
+  "js-yaml@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodeca/js-yaml",
+    "publisher": "Vladimir Zapparov",
+    "email": "dervus.grim@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/js-yaml",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/js-yaml/LICENSE"
+  },
+  "json-buffer@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dominictarr/json-buffer",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/json-buffer",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/json-buffer/LICENSE"
+  },
+  "json-parse-even-better-errors@2.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/npm/json-parse-even-better-errors",
+    "publisher": "Kat Marchán",
+    "email": "kzm@zkat.tech",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/json-parse-even-better-errors",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/json-parse-even-better-errors/LICENSE.md"
+  },
+  "json-schema-traverse@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/epoberezkin/json-schema-traverse",
+    "publisher": "Evgeny Poberezkin",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/json-schema-traverse",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/json-schema-traverse/LICENSE"
+  },
+  "json-stable-stringify-without-jsonify@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/samn/json-stable-stringify",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/json-stable-stringify-without-jsonify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/json-stable-stringify-without-jsonify/LICENSE"
+  },
+  "json5@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/json5/json5",
+    "publisher": "Aseem Kishore",
+    "email": "aseem.kishore@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/json5",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/json5/LICENSE.md"
+  },
+  "jsx-ast-utils@3.3.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jsx-eslint/jsx-ast-utils",
+    "publisher": "Ethan Cohen",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/jsx-ast-utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/jsx-ast-utils/LICENSE.md"
+  },
+  "keyv@4.5.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jaredwray/keyv",
+    "publisher": "Jared Wray",
+    "email": "me@jaredwray.com",
+    "url": "http://jaredwray.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/keyv",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/keyv/README.md"
+  },
+  "kind-of@6.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/kind-of",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/kind-of",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/kind-of/LICENSE"
+  },
+  "language-subtag-registry@0.3.23": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/mattcg/language-subtag-registry",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/language-subtag-registry",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/language-subtag-registry/README.md"
+  },
+  "language-tags@1.0.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mattcg/language-tags",
+    "publisher": "Matthew Caruana Galizia",
+    "email": "mattcg@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/language-tags",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/language-tags/README.md"
+  },
+  "levn@0.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/levn",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/levn",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/levn/LICENSE"
+  },
+  "lilconfig@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/antonk52/lilconfig",
+    "publisher": "antonk52",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/lilconfig",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/lilconfig/LICENSE"
+  },
+  "lilconfig@3.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/antonk52/lilconfig",
+    "publisher": "antonk52",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss-load-config/node_modules/lilconfig",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss-load-config/node_modules/lilconfig/LICENSE"
+  },
+  "lines-and-columns@1.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/eventualbuddha/lines-and-columns",
+    "publisher": "Brian Donovan",
+    "email": "brian@donovans.cc",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/lines-and-columns",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/lines-and-columns/LICENSE"
+  },
+  "locate-path@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/locate-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/locate-path",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/locate-path/license"
+  },
+  "locate-path@6.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/locate-path",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/locate-path",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/locate-path/license"
+  },
+  "lodash.castarray@4.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "url": "http://allyoucanleet.com/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/lodash.castarray",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/lodash.castarray/LICENSE"
+  },
+  "lodash.isplainobject@4.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "url": "http://allyoucanleet.com/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/lodash.isplainobject",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/lodash.isplainobject/LICENSE"
+  },
+  "lodash.merge@4.6.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lodash/lodash",
+    "publisher": "John-David Dalton",
+    "email": "john.david.dalton@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/lodash.merge",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/lodash.merge/LICENSE"
+  },
+  "loose-envify@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zertosh/loose-envify",
+    "publisher": "Andres Suarez",
+    "email": "zertosh@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/loose-envify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/loose-envify/LICENSE"
+  },
+  "lru-cache@10.2.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/lru-cache",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/lru-cache/LICENSE"
+  },
+  "lru-cache@6.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-lru-cache",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/hosted-git-info/node_modules/lru-cache",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/hosted-git-info/node_modules/lru-cache/LICENSE"
+  },
+  "map-obj@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/map-obj",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/decamelize-keys/node_modules/map-obj",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/decamelize-keys/node_modules/map-obj/license"
+  },
+  "map-obj@4.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/map-obj",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/map-obj",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/map-obj/license"
+  },
+  "meow@9.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/meow",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/meow",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/meow/license"
+  },
+  "merge2@1.4.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/teambition/merge2",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/merge2",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/merge2/LICENSE"
+  },
+  "micromatch@4.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/micromatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/micromatch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/micromatch/LICENSE"
+  },
+  "min-indent@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thejameskyle/min-indent",
+    "publisher": "James Kyle",
+    "email": "me@thejameskyle.com",
+    "url": "thejameskyle.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/min-indent",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/min-indent/license"
+  },
+  "mini-svg-data-uri@1.4.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tigt/mini-svg-data-uri",
+    "publisher": "Taylor “Tigt” Hunt",
+    "email": "holla@ti.gt",
+    "url": "https://ti.gt/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/mini-svg-data-uri",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/mini-svg-data-uri/LICENSE"
+  },
+  "minimatch@3.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/minimatch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/minimatch/LICENSE"
+  },
+  "minimatch@9.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/LICENSE"
+  },
+  "minimatch@9.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minimatch",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/glob/node_modules/minimatch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/glob/node_modules/minimatch/LICENSE"
+  },
+  "minimist-options@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vadimdemedes/minimist-options",
+    "publisher": "Vadim Demedes",
+    "email": "vdemedes@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/minimist-options",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/minimist-options/license"
+  },
+  "minimist@1.2.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/minimistjs/minimist",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/minimist",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/minimist/LICENSE"
+  },
+  "minipass@7.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/minipass",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/minipass",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/minipass/LICENSE"
+  },
+  "ms@2.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zeit/ms",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ms",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ms/license.md"
+  },
+  "mz@2.7.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/normalize/mz",
+    "publisher": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/mz",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/mz/LICENSE"
+  },
+  "nanoid@3.3.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ai/nanoid",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/nanoid",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/nanoid/LICENSE"
+  },
+  "natural-compare@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/litejs/natural-compare-lite",
+    "publisher": "Lauri Rooden",
+    "url": "https://github.com/litejs/natural-compare-lite",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/natural-compare",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/natural-compare/README.md"
+  },
+  "next@14.2.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/next.js",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/next",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/next/license.md"
+  },
+  "normalize-package-data@2.5.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/normalize-package-data",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/normalize-package-data/LICENSE"
+  },
+  "normalize-package-data@3.0.3": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/normalize-package-data",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/normalize-package-data/LICENSE"
+  },
+  "normalize-path@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/normalize-path",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/normalize-path",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/normalize-path/LICENSE"
+  },
+  "object-assign@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/object-assign",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object-assign",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object-assign/license"
+  },
+  "object-hash@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/puleos/object-hash",
+    "publisher": "Scott Puleo",
+    "email": "puleos@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object-hash",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object-hash/LICENSE"
+  },
+  "object-inspect@1.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/object-inspect",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object-inspect",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object-inspect/LICENSE"
+  },
+  "object-is@1.1.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/object-is",
+    "publisher": "Jordan Harband",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object-is",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object-is/LICENSE"
+  },
+  "object-keys@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/object-keys",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object-keys",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object-keys/LICENSE"
+  },
+  "object.assign@4.1.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/object.assign",
+    "publisher": "Jordan Harband",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object.assign",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object.assign/LICENSE"
+  },
+  "object.entries@1.1.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Object.entries",
+    "publisher": "Jordan Harband",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object.entries",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object.entries/LICENSE"
+  },
+  "object.fromentries@2.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Object.fromEntries",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object.fromentries",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object.fromentries/LICENSE"
+  },
+  "object.groupby@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Object.groupBy",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object.groupby",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object.groupby/LICENSE"
+  },
+  "object.hasown@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Object.hasOwn",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object.hasown",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object.hasown/LICENSE"
+  },
+  "object.values@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Object.values",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/object.values",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/object.values/LICENSE"
+  },
+  "once@1.4.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/once",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/once",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/once/LICENSE"
+  },
+  "optionator@0.9.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/optionator",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/optionator",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/optionator/LICENSE"
+  },
+  "p-limit@2.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-limit",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/p-limit",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/p-limit/license"
+  },
+  "p-limit@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-limit",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/p-limit",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/p-limit/license"
+  },
+  "p-locate@4.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-locate",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/p-locate",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/p-locate/license"
+  },
+  "p-locate@5.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-locate",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/p-locate",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/p-locate/license"
+  },
+  "p-try@2.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-try",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/p-try",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/p-try/license"
+  },
+  "parent-module@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/parent-module",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/parent-module",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/parent-module/license"
+  },
+  "parse-json@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/parse-json",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/parse-json",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/parse-json/license"
+  },
+  "path-exists@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-exists",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/path-exists",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/path-exists/license"
+  },
+  "path-is-absolute@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-is-absolute",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/path-is-absolute",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/path-is-absolute/license"
+  },
+  "path-key@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-key",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/path-key",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/path-key/license"
+  },
+  "path-parse@1.0.7": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jbgutierrez/path-parse",
+    "publisher": "Javier Blanco",
+    "email": "http://jbgutierrez.info",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/path-parse",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/path-parse/LICENSE"
+  },
+  "path-scurry@1.11.1": {
+    "licenses": "BlueOak-1.0.0",
+    "repository": "https://github.com/isaacs/path-scurry",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://blog.izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/path-scurry",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/path-scurry/LICENSE.md"
+  },
+  "path-to-regexp@6.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/pillarjs/path-to-regexp",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/path-to-regexp",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/path-to-regexp/LICENSE"
+  },
+  "path-type@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/path-type",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/path-type",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/path-type/license"
+  },
+  "picocolors@1.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/alexeyraspopov/picocolors",
+    "publisher": "Alexey Raspopov",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/picocolors",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/picocolors/LICENSE"
+  },
+  "picomatch@2.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/picomatch",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/picomatch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/picomatch/LICENSE"
+  },
+  "pify@2.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/pify",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/pify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/pify/license"
+  },
+  "pirates@4.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/danez/pirates",
+    "publisher": "Ari Porad",
+    "email": "ari@ariporad.com",
+    "url": "http://ariporad.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/pirates",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/pirates/LICENSE"
+  },
+  "plantopo-app@0.1.0": {
+    "licenses": "UNLICENSED",
+    "private": true,
+    "path": "/Users/daniel/projects/plantopo-app",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/license-report.json"
+  },
+  "pluralize@8.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/blakeembrey/pluralize",
+    "publisher": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/pluralize",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/pluralize/LICENSE"
+  },
+  "possible-typed-array-names@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/possible-typed-array-names",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/possible-typed-array-names",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/possible-typed-array-names/LICENSE"
+  },
+  "postcss-import@15.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-import",
+    "publisher": "Maxime Thirouin",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss-import",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss-import/LICENSE"
+  },
+  "postcss-js@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-js",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss-js",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss-js/LICENSE"
+  },
+  "postcss-load-config@4.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-load-config",
+    "publisher": "Michael Ciniawky",
+    "email": "michael.ciniawsky@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss-load-config",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss-load-config/LICENSE"
+  },
+  "postcss-nested@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-nested",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss-nested",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss-nested/LICENSE"
+  },
+  "postcss-selector-parser@6.0.10": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-selector-parser",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/typography/node_modules/postcss-selector-parser",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@tailwindcss/typography/node_modules/postcss-selector-parser/LICENSE-MIT"
+  },
+  "postcss-selector-parser@6.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss-selector-parser",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss-selector-parser",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss-selector-parser/LICENSE-MIT"
+  },
+  "postcss-value-parser@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TrySound/postcss-value-parser",
+    "publisher": "Bogdan Chadkin",
+    "email": "trysound@yandex.ru",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss-value-parser",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss-value-parser/LICENSE"
+  },
+  "postcss@8.4.31": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/next/node_modules/postcss",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/next/node_modules/postcss/LICENSE"
+  },
+  "postcss@8.4.38": {
+    "licenses": "MIT",
+    "repository": "https://github.com/postcss/postcss",
+    "publisher": "Andrey Sitnik",
+    "email": "andrey@sitnik.ru",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/postcss",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/postcss/LICENSE"
+  },
+  "prelude-ls@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/prelude-ls",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/prelude-ls",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/prelude-ls/LICENSE"
+  },
+  "prettier@3.3.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/prettier/prettier",
+    "publisher": "James Long",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/prettier",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/prettier/LICENSE"
+  },
+  "prop-types@15.8.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/prop-types",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/prop-types",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/prop-types/LICENSE"
+  },
+  "punycode@2.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mathiasbynens/punycode.js",
+    "publisher": "Mathias Bynens",
+    "url": "https://mathiasbynens.be/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/punycode",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/punycode/LICENSE-MIT.txt"
+  },
+  "queue-microtask@1.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/queue-microtask",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/queue-microtask",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/queue-microtask/LICENSE"
+  },
+  "quick-lru@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/quick-lru",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/quick-lru",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/quick-lru/license"
+  },
+  "react-dom@18.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/react-dom",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/react-dom/LICENSE"
+  },
+  "react-is@16.13.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/react-is",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/react-is/LICENSE"
+  },
+  "react18-json-view@0.2.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/YYsuni/react18-json-view",
+    "publisher": "Suni",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/react18-json-view",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/react18-json-view/LICENSE"
+  },
+  "react@18.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/react",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/react/LICENSE"
+  },
+  "read-cache@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TrySound/read-cache",
+    "publisher": "Bogdan Chadkin",
+    "email": "trysound@yandex.ru",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-cache",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-cache/LICENSE"
+  },
+  "read-pkg-up@7.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/read-pkg-up",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/license"
+  },
+  "read-pkg@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/read-pkg",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/license"
+  },
+  "readdirp@3.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/paulmillr/readdirp",
+    "publisher": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "thlorenz.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/readdirp",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/readdirp/LICENSE"
+  },
+  "redent@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/redent",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/redent",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/redent/license"
+  },
+  "reflect.getprototypeof@1.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/Reflect.getPrototypeOf",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/reflect.getprototypeof",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/reflect.getprototypeof/LICENSE"
+  },
+  "regenerator-runtime@0.14.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/regenerator/tree/main/packages/runtime",
+    "publisher": "Ben Newman",
+    "email": "bn@cs.stanford.edu",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/regenerator-runtime",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/regenerator-runtime/LICENSE"
+  },
+  "regexp.prototype.flags@1.5.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/RegExp.prototype.flags",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/regexp.prototype.flags",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/regexp.prototype.flags/LICENSE"
+  },
+  "resolve-from@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/resolve-from",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/resolve-from",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/resolve-from/license"
+  },
+  "resolve-pkg-maps@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/privatenumber/resolve-pkg-maps",
+    "publisher": "Hiroki Osame",
+    "email": "hiroki.osame@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/resolve-pkg-maps",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/resolve-pkg-maps/LICENSE"
+  },
+  "resolve@1.22.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/resolve",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/resolve/LICENSE"
+  },
+  "resolve@2.0.0-next.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/browserify/resolve",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-react/node_modules/resolve",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-react/node_modules/resolve/LICENSE"
+  },
+  "reusify@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mcollina/reusify",
+    "publisher": "Matteo Collina",
+    "email": "hello@matteocollina.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/reusify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/reusify/LICENSE"
+  },
+  "rimraf@3.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/rimraf",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/rimraf",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/rimraf/LICENSE"
+  },
+  "run-parallel@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/feross/run-parallel",
+    "publisher": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "https://feross.org",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/run-parallel",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/run-parallel/LICENSE"
+  },
+  "safe-array-concat@1.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/safe-array-concat",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/safe-array-concat",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/safe-array-concat/LICENSE"
+  },
+  "safe-regex-test@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/safe-regex-test",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/safe-regex-test",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/safe-regex-test/LICENSE"
+  },
+  "scheduler@0.23.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/scheduler",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/scheduler/LICENSE"
+  },
+  "semver@5.7.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/semver",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/semver/LICENSE"
+  },
+  "semver@6.3.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-import/node_modules/semver",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/eslint-plugin-import/node_modules/semver/LICENSE"
+  },
+  "semver@7.6.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/semver",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/semver/LICENSE"
+  },
+  "set-function-length@1.2.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/set-function-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/set-function-length",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/set-function-length/LICENSE"
+  },
+  "set-function-name@2.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/set-function-name",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/set-function-name",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/set-function-name/LICENSE"
+  },
+  "shebang-command@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kevva/shebang-command",
+    "publisher": "Kevin Mårtensson",
+    "email": "kevinmartensson@gmail.com",
+    "url": "github.com/kevva",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/shebang-command",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/shebang-command/license"
+  },
+  "shebang-regex@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/shebang-regex",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/shebang-regex",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/shebang-regex/license"
+  },
+  "side-channel@1.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/side-channel",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/side-channel",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/side-channel/LICENSE"
+  },
+  "signal-exit@4.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/tapjs/signal-exit",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/signal-exit",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/signal-exit/LICENSE.txt"
+  },
+  "slash@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/slash",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/slash",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/slash/license"
+  },
+  "source-map-js@1.2.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/7rulnik/source-map-js",
+    "publisher": "Valentin 7rulnik Semirulnik",
+    "email": "v7rulnik@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/source-map-js",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/source-map-js/LICENSE"
+  },
+  "spdx-correct@3.2.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jslicense/spdx-correct.js",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/spdx-correct",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/spdx-correct/LICENSE"
+  },
+  "spdx-exceptions@2.5.0": {
+    "licenses": "CC-BY-3.0",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/spdx-exceptions",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/spdx-exceptions/README.md"
+  },
+  "spdx-expression-parse@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/spdx-expression-parse",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/spdx-expression-parse/LICENSE"
+  },
+  "spdx-license-ids@3.0.18": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/jslicense/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/spdx-license-ids",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/spdx-license-ids/README.md"
+  },
+  "stop-iteration-iterator@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/stop-iteration-iterator",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/stop-iteration-iterator",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/stop-iteration-iterator/LICENSE"
+  },
+  "streamsearch@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mscdex/streamsearch",
+    "publisher": "Brian White",
+    "email": "mscdex@mscdex.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/streamsearch",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/streamsearch/LICENSE"
+  },
+  "string-width@4.2.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string-width-cjs",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string-width-cjs/license"
+  },
+  "string-width@5.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/string-width",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string-width",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string-width/license"
+  },
+  "string.prototype.matchall@4.0.11": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/String.prototype.matchAll",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.matchall",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.matchall/LICENSE"
+  },
+  "string.prototype.trim@1.2.9": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/String.prototype.trim",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.trim",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.trim/LICENSE"
+  },
+  "string.prototype.trimend@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/String.prototype.trimEnd",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.trimend",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.trimend/LICENSE"
+  },
+  "string.prototype.trimstart@1.0.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/es-shims/String.prototype.trimStart",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.trimstart",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string.prototype.trimstart/LICENSE"
+  },
+  "strip-ansi@6.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/strip-ansi",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/strip-ansi/license"
+  },
+  "strip-ansi@7.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/strip-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/string-width/node_modules/strip-ansi",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/string-width/node_modules/strip-ansi/license"
+  },
+  "strip-bom@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/strip-bom",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/strip-bom",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/strip-bom/license"
+  },
+  "strip-indent@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/strip-indent",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/strip-indent",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/strip-indent/license"
+  },
+  "strip-json-comments@3.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/strip-json-comments",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/strip-json-comments",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/strip-json-comments/license"
+  },
+  "styled-jsx@5.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/styled-jsx",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/styled-jsx",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/styled-jsx/license.md"
+  },
+  "sucrase@3.35.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alangpierce/sucrase",
+    "publisher": "Alan Pierce",
+    "email": "alangpierce@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/sucrase",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/sucrase/LICENSE"
+  },
+  "supports-color@5.5.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/supports-color",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/@babel/highlight/node_modules/supports-color/license"
+  },
+  "supports-color@7.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/supports-color",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/supports-color",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/supports-color/license"
+  },
+  "supports-preserve-symlinks-flag@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/node-supports-preserve-symlinks-flag",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/supports-preserve-symlinks-flag",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/supports-preserve-symlinks-flag/LICENSE"
+  },
+  "tabbable@6.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/focus-trap/tabbable",
+    "publisher": "David Clark",
+    "url": "http://davidtheclark.com/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/tabbable",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/tabbable/LICENSE"
+  },
+  "tailwindcss-animate@1.0.7": {
+    "licenses": "MIT",
+    "publisher": "Jamie Kyle",
+    "email": "me@thejameskyle.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/tailwindcss-animate",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/tailwindcss-animate/LICENSE"
+  },
+  "tailwindcss@3.4.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/tailwindlabs/tailwindcss",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/tailwindcss",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/tailwindcss/LICENSE"
+  },
+  "tapable@2.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/webpack/tapable",
+    "publisher": "Tobias Koppers @sokra",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/tapable",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/tapable/LICENSE"
+  },
+  "text-table@0.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/text-table",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/text-table",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/text-table/LICENSE"
+  },
+  "thenify-all@1.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thenables/thenify-all",
+    "publisher": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/thenify-all",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/thenify-all/LICENSE"
+  },
+  "thenify@3.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thenables/thenify",
+    "publisher": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/thenify",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/thenify/LICENSE"
+  },
+  "to-regex-range@5.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/micromatch/to-regex-range",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/to-regex-range",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/to-regex-range/LICENSE"
+  },
+  "trim-newlines@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/trim-newlines",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/trim-newlines",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/trim-newlines/license"
+  },
+  "ts-api-utils@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/JoshuaKGoldberg/ts-api-utils",
+    "publisher": "JoshuaKGoldberg",
+    "email": "npm@joshuakgoldberg.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ts-api-utils",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ts-api-utils/LICENSE.md"
+  },
+  "ts-interface-checker@0.1.13": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/gristlabs/ts-interface-checker",
+    "publisher": "Dmitry S, Grist Labs",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ts-interface-checker",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ts-interface-checker/LICENSE"
+  },
+  "tsconfig-paths@3.15.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dividab/tsconfig-paths",
+    "publisher": "Jonas Kello",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/tsconfig-paths",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/tsconfig-paths/LICENSE"
+  },
+  "tslib@2.6.3": {
+    "licenses": "0BSD",
+    "repository": "https://github.com/Microsoft/tslib",
+    "publisher": "Microsoft Corp.",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/tslib",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/tslib/LICENSE.txt"
+  },
+  "type-check@0.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/gkz/type-check",
+    "publisher": "George Zahariev",
+    "email": "z@georgezahariev.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/type-check",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/type-check/LICENSE"
+  },
+  "type-fest@0.18.1": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/meow/node_modules/type-fest",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/meow/node_modules/type-fest/license"
+  },
+  "type-fest@0.20.2": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/type-fest",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/type-fest/license"
+  },
+  "type-fest@0.6.0": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/type-fest",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg/node_modules/type-fest/license"
+  },
+  "type-fest@0.8.1": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/type-fest",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/read-pkg-up/node_modules/type-fest/license"
+  },
+  "typed-array-buffer@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/typed-array-buffer",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-buffer",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-buffer/LICENSE"
+  },
+  "typed-array-byte-length@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/typed-array-byte-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-byte-length",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-byte-length/LICENSE"
+  },
+  "typed-array-byte-offset@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/typed-array-byte-offset",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-byte-offset",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-byte-offset/LICENSE"
+  },
+  "typed-array-length@1.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/typed-array-length",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-length",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/typed-array-length/LICENSE"
+  },
+  "typescript@5.4.5": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/Microsoft/TypeScript",
+    "publisher": "Microsoft Corp.",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/typescript",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/typescript/LICENSE.txt"
+  },
+  "ulid@2.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ulid/javascript",
+    "publisher": "Alizain Feerasta",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/ulid",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/ulid/LICENSE"
+  },
+  "unbox-primitive@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/unbox-primitive",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/unbox-primitive",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/unbox-primitive/LICENSE"
+  },
+  "uncrypto@0.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/unjs/uncrypto",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/uncrypto",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/uncrypto/LICENSE"
+  },
+  "undici-types@5.26.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/undici",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/undici-types",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/undici-types/README.md"
+  },
+  "uri-js@4.4.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/garycourt/uri-js",
+    "publisher": "Gary Court",
+    "email": "gary.court@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/uri-js",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/uri-js/LICENSE"
+  },
+  "util-deprecate@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/TooTallNate/util-deprecate",
+    "publisher": "Nathan Rajlich",
+    "email": "nathan@tootallnate.net",
+    "url": "http://n8.io/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/util-deprecate",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/util-deprecate/LICENSE"
+  },
+  "validate-npm-package-license@3.0.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/kemitchell/validate-npm-package-license.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/validate-npm-package-license",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/validate-npm-package-license/LICENSE"
+  },
+  "which-boxed-primitive@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/which-boxed-primitive",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/which-boxed-primitive",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/which-boxed-primitive/LICENSE"
+  },
+  "which-builtin-type@1.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/which-builtin-type",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/which-builtin-type",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/which-builtin-type/LICENSE"
+  },
+  "which-collection@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/which-collection",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/which-collection",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/which-collection/LICENSE"
+  },
+  "which-typed-array@1.1.15": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/which-typed-array",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/which-typed-array",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/which-typed-array/LICENSE"
+  },
+  "which@2.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-which",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/which",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/which/LICENSE"
+  },
+  "word-wrap@1.2.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jonschlinkert/word-wrap",
+    "publisher": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/word-wrap",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/word-wrap/LICENSE"
+  },
+  "wrap-ansi@7.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/wrap-ansi-cjs",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/wrap-ansi-cjs/license"
+  },
+  "wrap-ansi@8.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/chalk/wrap-ansi",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/wrap-ansi",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/wrap-ansi/license"
+  },
+  "wrappy@1.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/wrappy",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/wrappy",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/wrappy/LICENSE"
+  },
+  "yallist@4.0.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/yallist",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/yallist",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/yallist/LICENSE"
+  },
+  "yaml@2.4.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/eemeli/yaml",
+    "publisher": "Eemeli Aro",
+    "email": "eemeli@gmail.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/yaml",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/yaml/LICENSE"
+  },
+  "yargs-parser@20.2.9": {
+    "licenses": "ISC",
+    "repository": "https://github.com/yargs/yargs-parser",
+    "publisher": "Ben Coe",
+    "email": "ben@npmjs.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/yargs-parser",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/yargs-parser/LICENSE.txt"
+  },
+  "yocto-queue@0.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/yocto-queue",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/yocto-queue",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/yocto-queue/license"
+  },
+  "zod@3.23.8": {
+    "licenses": "MIT",
+    "repository": "https://github.com/colinhacks/zod",
+    "publisher": "Colin McDonnell",
+    "email": "colin@colinhacks.com",
+    "path": "/Users/daniel/projects/plantopo-app/node_modules/zod",
+    "licenseFile": "/Users/daniel/projects/plantopo-app/node_modules/zod/LICENSE"
+  }
+}

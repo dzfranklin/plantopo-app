@@ -1,0 +1,31 @@
+import Link from 'next/link';
+
+const navigation = {
+  main: [
+    { name: 'Status', href: 'https://status.plantopo.com' },
+    { name: 'Source', href: 'https://github.com/dzfranklin/plantopo-app' },
+    { name: 'Credits', href: '/credits' },
+  ],
+};
+
+export default function Example() {
+  return (
+    <footer className="mx-auto max-w-7xl overflow-hidden px-6 py-6 lg:px-8">
+      <nav
+        className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+        aria-label="Footer"
+      >
+        {navigation.main.map((item) => (
+          <div key={item.name} className="pb-6">
+            <Link
+              href={item.href}
+              className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+            >
+              {item.name}
+            </Link>
+          </div>
+        ))}
+      </nav>
+    </footer>
+  );
+}
