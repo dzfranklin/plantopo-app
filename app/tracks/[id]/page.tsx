@@ -1,10 +1,10 @@
 import { Layout } from '@/components/Layout';
 import { Track, fetchTrack } from '@/features/tracks/api';
-import TrackStatsComponent from './TrackStats';
-import TrackActions from './TrackActions';
+import TrackStatsComponent from '@/features/tracks/TrackStats';
+import TrackActions from '@/features/tracks/TrackActions';
 import { AuthorizationError } from '@/api';
 import UnauthorizedScreen from '@/components/UnauthorizedScreen';
-import ElevationChartComponent from './ElevationChartComponent';
+import ElevationChartComponent from '@/features/tracks/ElevationChartComponent';
 
 export default async function Page({ params }: { params: { id: string } }) {
   let track: Track;
