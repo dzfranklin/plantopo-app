@@ -1,3 +1,5 @@
+'use client';
+
 import { Button } from '@/components/button';
 import {
   Field,
@@ -9,19 +11,22 @@ import {
 import { Select } from '@/components/select';
 import { useUnitSettings } from './useUnitSettings';
 import { UnitSystemSchema } from './schema';
+import { toast } from 'react-hot-toast';
 
-export default function UnitSettingsForm({ onDone }: { onDone: () => void }) {
+export default function UnitSettingsForm({ onDone }: { onDone?: () => void }) {
   const [settings, updateSettings] = useUnitSettings();
 
   return (
     <form
+      className="w-full max-w-sm"
       onSubmit={(evt) => {
         evt.preventDefault();
         const formData = new FormData(evt.currentTarget);
         const distance = UnitSystemSchema.parse(formData.get('distance'));
         const elevation = UnitSystemSchema.parse(formData.get('elevation'));
         updateSettings((p) => ({ ...p, distance, elevation }));
-        onDone();
+        toast.success('Applied unit settings');
+        onDone?.();
       }}
     >
       <Fieldset>
