@@ -10,9 +10,9 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className="mx-auto max-w-7xl overflow-hidden px-6 py-6 lg:px-8">
+    <footer className="mx-auto w-full max-w-7xl overflow-hidden px-6 py-6 lg:px-8">
       <nav
-        className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+        className="-mb-6 flex space-x-6 justify-center sm:space-x-12"
         aria-label="Footer"
       >
         {navigation.main.map((item) => (
