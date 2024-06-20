@@ -38,7 +38,6 @@ import {
   Impersonation,
 } from '@workos-inc/authkit-nextjs';
 import Footer from './Footer';
-import cls from '@/cls';
 
 const navItems = [
   { label: 'Home', url: '/' },
@@ -50,10 +49,12 @@ export const Layout = forwardRef(
     {
       children,
       pageTitle,
+      pageActions,
       ...props
     }: {
       children?: React.ReactNode;
       pageTitle?: string;
+      pageActions?: React.ReactNode;
     } & React.ComponentPropsWithoutRef<'div'>,
     ref: React.ForwardedRef<HTMLDivElement>,
   ) => {
@@ -132,8 +133,8 @@ export const Layout = forwardRef(
           }
         >
           <Impersonation />
-          <PageTitle title={pageTitle} />
-          <div {...props} className={cls('grow', props.className)} ref={ref}>
+          <PageTitle title={pageTitle} actions={pageActions} />
+          <div {...props} className="grow" ref={ref}>
             {children}
           </div>
         </StackedLayout>

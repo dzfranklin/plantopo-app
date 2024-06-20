@@ -10,6 +10,7 @@ const TrackGeoJSONSchema = z.object({
     durationSecs: z.number().optional(),
     coordinateProperties: z
       .object({
+        times: z.array(z.string()).optional(),
         elevationMeters: z.array(z.number()).optional(),
       })
       .optional(),

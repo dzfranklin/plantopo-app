@@ -2,7 +2,7 @@ import { z } from 'zod';
 
 export const UnitSystemSchema = z.union([
   z.literal('metric'),
-  z.literal('imperial'),
+  z.literal('customary'),
 ]);
 
 export type UnitSystem = z.infer<typeof UnitSystemSchema>;

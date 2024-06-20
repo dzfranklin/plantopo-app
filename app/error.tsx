@@ -30,7 +30,7 @@ export default function Error({
 
           <pre>{error.message}</pre>
 
-          <pre>{error.stack}</pre>
+          <pre className="max-h-80 overflow-auto">{error.stack}</pre>
         </details>
       </div>
     </div>

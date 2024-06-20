@@ -11,7 +11,7 @@ export default function TrackGridComponent({ track }: { track: Track }) {
   const container = useRef<HTMLDivElement>(null);
   useResizeObserver(container, (entries) => {
     if (entries.length > 0) {
-      const entry = entries[0];
+      const entry = entries[0]!;
       setSize([entry.contentRect.width, entry.contentRect.height]);
     }
   });

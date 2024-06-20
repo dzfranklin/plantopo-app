@@ -31,7 +31,9 @@ export function Avatar({
     let initials = '';
     for (const name of names) {
       const segments = Array.from(segmenter.segment(name));
-      initials += segments[0].segment;
+      if (segments.length > 0) {
+        initials += segments[0]!.segment;
+      }
     }
     return initials;
   }, [firstName, lastName]);

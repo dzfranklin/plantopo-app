@@ -12,6 +12,7 @@ const lint = await new Deno.Command('npm', {
   },
 }).output();
 if (lint.code !== 0) {
+  console.error('Lint failed');
   await Deno.stdout.write(lint.stderr);
   exitCode = 1;
 }
@@ -25,8 +26,12 @@ const tsc = await new Deno.Command('tsc', {
   },
 }).output();
 if (tsc.code !== 0) {
-  await Deno.stdout.write(tsc.stderr);
+  console.error('TypeScript check failed');
+  await Deno.stdout.write(tsc.stdout);
   exitCode = 1;
 }
 
+if (exitCode === 0) {
+  console.log('All checks passed');
+}
 Deno.exit(exitCode);

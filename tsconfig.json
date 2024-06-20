@@ -13,6 +13,7 @@
     "jsx": "preserve",
     "incremental": true,
     "target": "ES2016",
+    "noUncheckedIndexedAccess": true,
     "plugins": [
       {
         "name": "next"

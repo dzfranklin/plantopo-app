@@ -10,7 +10,7 @@ export default function TrackActions({ track }: { track: Track }) {
   const router = useRouter();
   const prompt = usePrompt();
   return (
-    <div>
+    <>
       <Button
         onClick={async () => {
           const confirmed = await prompt.confirm(
@@ -26,6 +26,6 @@ export default function TrackActions({ track }: { track: Track }) {
       >
         Delete
       </Button>
-    </div>
+    </>
   );
 }
