@@ -16,7 +16,15 @@ export async function baseApiFetch<T>(
 ): Promise<T> {
   const requestID = requestIDFactory();
 
-  const url = new URL(API_ENDPOINT + options.path);
+  const url = new URL(API_ENDPOINT);
+  if (!url.pathname.endsWith('/')) {
+    url.pathname += '/';
+  }
+  if (options.path.startsWith('/')) {
+    url.pathname += options.path.slice(1);
+  } else {
+    url.pathname += options.path;
+  }
   if (options.params) {
     for (const [key, value] of Object.entries(options.params)) {
       if (value === undefined) continue;

@@ -75,6 +75,6 @@ export type TrackImport = z.infer<typeof TrackImportSchema>;
 
 export const fetchMyPendingOrRecentTrackImports = (): Promise<TrackImport[]> =>
   apiFetch({
-    path: '/tracks/import/my/pending-or-recent',
+    path: 'tracks/import/my/pending-or-recent',
     schema: z.array(TrackImportSchema),
   });
