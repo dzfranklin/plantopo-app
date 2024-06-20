@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --experimental-https -p 443",
     "build": "npm run build:license-report && next build",
-    "start": "next start",
+    "start": "npm run build && next start",
     "lint": "prettier . --check && next lint",
     "build:license-report": "npx license-checker --json --out=license-report.json"
   },
