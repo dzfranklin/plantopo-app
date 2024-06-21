@@ -165,8 +165,8 @@ export default function ElevationChartComponent({
             y: 'elevation',
             title(p: PointEntry, _i: number) {
               return [
-                `Distance: ${formatDistance(p.distance, settings.distance)}`,
-                `Elevation: ${formatElevation(p.elevation, settings.elevation)}`,
+                `Distance: ${formatDistance(p.distance, settings.distance).join(' ')}`,
+                `Elevation: ${formatElevation(p.elevation, settings.elevation).join(' ')}`,
               ].join('\n\n');
             },
           }),
