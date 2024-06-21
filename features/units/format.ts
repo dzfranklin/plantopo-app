@@ -22,10 +22,24 @@ export function formatDistance(
   meters: number,
   unit: UnitSystem,
 ): [string, string] {
+  const value = distanceInUnit(meters, unit);
+  const label = distanceUnitLabel(unit);
+  return [formatUnitless(value, 2), label];
+}
+
+export function distanceInUnit(meters: number, unit: UnitSystem): number {
   if (unit === 'metric') {
-    return [formatUnitless(meters / 1000, 2), 'km'];
+    return meters / 1000;
   } else {
-    return [formatUnitless(meters / 1609.344, 2), 'mi'];
+    return meters / 1609.344;
+  }
+}
+
+export function distanceUnitLabel(unit: UnitSystem): string {
+  if (unit === 'metric') {
+    return 'km';
+  } else {
+    return 'mi';
   }
 }
 

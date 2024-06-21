@@ -23,12 +23,14 @@ export default async function Page() {
       fetchMyTracks(),
     ]);
   } catch (err) {
+    console.error('Failed to fetch my tracks', err);
     if (err instanceof AuthorizationError) {
       return await UnauthorizedScreen();
     } else {
       throw err;
     }
   }
+  console.log('rendered tracks page');
 
   const pendingImports = myImports.filter(
     (entry) => entry.failedAt === undefined && entry.completedAt === undefined,

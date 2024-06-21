@@ -1,10 +1,9 @@
-import { Layout } from '@/components/Layout';
 import { Track, fetchTrack } from '@/features/tracks/api';
-import TrackStatsComponent from '@/features/tracks/TrackStats';
-import TrackActions from '@/features/tracks/TrackActions';
 import { AuthorizationError } from '@/api';
 import UnauthorizedScreen from '@/components/UnauthorizedScreen';
-import ElevationChartComponent from '@/features/tracks/ElevationChartComponent';
+import TrackView from './TrackView';
+import TrackActions from '@/features/tracks/TrackActions';
+import { Layout } from '@/components/Layout';
 
 export default async function Page({ params }: { params: { id: string } }) {
   let track: Track;
@@ -18,26 +17,12 @@ export default async function Page({ params }: { params: { id: string } }) {
     }
   }
 
-  const geojson = track.geojson;
-  const props = geojson.properties;
-  const coordProps = props.coordinateProperties;
-
   return (
     <Layout
       pageTitle={track.name || 'Unnamed track'}
       pageActions={<TrackActions track={track} />}
     >
-      <div className="w-full max-w-3xl space-y-6">
-        {coordProps?.elevationMeters && coordProps?.times && (
-          <ElevationChartComponent
-            times={coordProps.times}
-            coordinates={geojson.geometry.coordinates}
-            elevations={coordProps.elevationMeters}
-          />
-        )}
-
-        <TrackStatsComponent track={track} />
-      </div>
+      <TrackView track={track} />
     </Layout>
   );
 }

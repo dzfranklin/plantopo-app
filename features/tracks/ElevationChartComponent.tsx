@@ -3,38 +3,50 @@
 import InlineAlert from '@/components/InlineAlert';
 import * as Plot from '@observablehq/plot';
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { distance as computeDistance } from '@turf/distance';
 import {
-  formatDistance,
-  formatDateTime,
-  formatElevation,
   elevationUnitLabel,
   elevationInUnit,
   formatUnitless,
+  distanceInUnit,
+  formatDistance,
+  formatElevation,
 } from '@/features/units/format';
 import { useUnitSettings } from '@/features/units/useUnitSettings';
 import Skeleton from '@/components/Skeleton';
+import { distance as _computeDistance } from '@turf/distance';
+
+function computeDistance(a: [number, number], b: [number, number]): number {
+  return _computeDistance(a, b, { units: 'meters' });
+}
+
+// See <https://www.gpsvisualizer.com/tutorials/elevation_gain.html>
+const horizThreshold = 5;
+const vertTreshold = 5;
 
 interface PointEntry {
-  Time: Date;
-  'Elevation gain': number;
-  absElevationMeters: number;
-  distanceMeters: number;
+  elevation: number;
+  distance: number;
+  coord: [number, number];
 }
 
 export default function ElevationChartComponent({
   coordinates,
-  times,
   elevations,
+  onMarkDistance,
 }: {
   coordinates: [number, number][];
-  times: string[];
   elevations: number[];
+  onMarkDistance: (distance: number | undefined) => void;
 }) {
   const [isMalformed, setIsMalformed] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
   const [settings] = useUnitSettings();
   const [loaded, setLoaded] = useState(false);
+
+  const onMarkDistanceRef = useRef(onMarkDistance);
+  useEffect(() => {
+    onMarkDistanceRef.current = onMarkDistance;
+  }, [onMarkDistance]);
 
   const height = 200;
   const [width, setWidth] = useState(0);
@@ -53,61 +65,73 @@ export default function ElevationChartComponent({
     if (!ref.current) return;
     const el = ref.current;
 
-    if (
-      coordinates.length === 0 ||
-      coordinates.length !== elevations.length ||
-      coordinates.length !== times.length
-    ) {
+    if (coordinates.length === 0 || coordinates.length !== elevations.length) {
       setIsMalformed(true);
       return;
     }
 
-    const originCoord = coordinates[0]!;
-    const originElevation = elevations[0]!;
+    const maxElevation = Math.max(...elevations);
+
     const points: PointEntry[] = [];
+    let distance = 0;
     for (let i = 0; i < coordinates.length; i++) {
-      const time = new Date(times[i]!);
-      if (isNaN(time.getTime())) {
-        setIsMalformed(true);
-        return;
+      const coord = coordinates[i]!;
+      const elevation = elevations[i]!;
+
+      if (i > 0) {
+        distance += computeDistance(coordinates[i - 1]!, coord);
       }
 
-      const absElevationMeters = elevations[i]!;
-      const elGain = elevationInUnit(
-        absElevationMeters - originElevation,
-        settings.elevation,
-      );
+      const point: PointEntry = {
+        elevation,
+        distance,
+        coord,
+      };
 
-      const distanceMeters = computeDistance(originCoord, coordinates[i]!, {
-        units: 'meters',
-      });
-
-      points.push({
-        Time: time,
-        'Elevation gain': elGain,
-        absElevationMeters,
-        distanceMeters,
-      });
+      if (i === 0 || i === coordinates.length - 1) {
+        points.push(point);
+      } else if (elevation === maxElevation) {
+        points.push(point);
+      } else {
+        const lastPoint = points[points.length - 1]!;
+        const horizDelta = computeDistance(lastPoint.coord, coord);
+        const vertDelta = Math.abs(elevation - lastPoint.elevation);
+        if (horizDelta >= horizThreshold && vertDelta >= vertTreshold) {
+          points.push(point);
+        }
+      }
     }
-
-    // So that the area under curve displays correctly
-    points.push({
-      ...points[points.length - 1]!,
-      'Elevation gain': 0,
-    });
 
     const plot = Plot.plot({
       width,
       height,
       marginLeft: 0, // don’t need left-margin since labels are inset
+      x: {
+        transform: (x) => distanceInUnit(x, settings.distance),
+      },
+      y: {
+        domain: [
+          elevationInUnit(
+            Math.min(...points.map((p) => p.elevation)),
+            settings.elevation,
+          ),
+          elevationInUnit(
+            Math.max(...points.map((p) => p.elevation)) + 100,
+            settings.elevation,
+          ),
+        ] as const,
+        transform: (y) => elevationInUnit(y, settings.elevation),
+      },
       marks: [
         Plot.gridY({
-          strokeDasharray: '0.75,2',
-          strokeOpacity: 1,
+          strokeOpacity: 0.1,
+        }),
+        Plot.gridX({
+          strokeOpacity: 0.1,
         }),
         Plot.axisY({
+          label: 'Elevation',
           tickSize: 0, // don’t draw ticks
-          lineAnchor: 'bottom', // draw labels above grid lines
           anchor: 'right',
           marginRight: 60, // space for five digits
           tickFormat: ((value: number, i: number, axis: number[]) => {
@@ -119,40 +143,40 @@ export default function ElevationChartComponent({
             return formatted;
           }) as any,
         }),
-        Plot.line(points, {
-          x: 'Time',
-          y: 'Elevation gain',
+        Plot.axisX({
+          label: 'Distance',
+          tickSize: 0, // don’t draw ticks
+        }),
+        Plot.areaY(points, {
+          x: 'distance',
+          y: 'elevation',
           fill: '#a1a1aa', // zinc-400
           fillOpacity: 0.4,
-          tip: true,
-          title(d: PointEntry, _i: number) {
-            const absEl = formatElevation(
-              d.absElevationMeters,
-              settings.elevation,
-            );
-            const elGain = formatElevation(
-              d['Elevation gain'],
-              settings.elevation,
-            );
-            const distance = formatDistance(
-              d.distanceMeters,
-              settings.distance,
-            );
-            const time = formatDateTime(d.Time);
-            return [
-              `Time: ${time}`,
-              `Elevation: ${absEl.join(' ')}`,
-              `Elevation gain: ${elGain.join(' ')}`,
-              `Distance: ${distance.join(' ')}`,
-            ].join('\n\n');
-          },
+          clip: true,
         }),
-        Plot.ruleY([0], { stroke: '#7f7f7f' }),
         Plot.crosshairX(points, {
-          x: 'Time',
-          y: 'Elevation gain',
+          x: 'distance',
+          y: 'elevation',
         }),
+        Plot.tip(
+          points,
+          Plot.pointer({
+            x: 'distance',
+            y: 'elevation',
+            title(p: PointEntry, _i: number) {
+              return [
+                `Distance: ${formatDistance(p.distance, settings.distance)}`,
+                `Elevation: ${formatElevation(p.elevation, settings.elevation)}`,
+              ].join('\n\n');
+            },
+          }),
+        ),
       ],
+    });
+
+    plot.addEventListener('input', (_evt) => {
+      const value = plot.value as PointEntry | null | undefined;
+      onMarkDistanceRef.current?.(value?.distance ?? undefined);
     });
 
     el.append(plot);
@@ -161,10 +185,10 @@ export default function ElevationChartComponent({
     return () => {
       plot.remove();
     };
-  }, [coordinates, elevations, times, settings, width]);
+  }, [coordinates, elevations, settings, width]);
   return (
     <div ref={ref} style={{ height }}>
-      {!loaded && <Skeleton maxWidth={'100%'} height={'100%'} />}
+      {!loaded && <Skeleton />}
       {isMalformed && (
         <InlineAlert variant="error">Malformed elevation data</InlineAlert>
       )}

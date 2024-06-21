@@ -14,8 +14,8 @@ export default function Error({
   }, [error]);
 
   return (
-    <div className="w-full max-w-full h-full max-h-full flex justify-center items-center prose">
-      <div className="space-y-6">
+    <div className="p-8 w-full max-w-full h-full max-h-full flex justify-center items-center prose">
+      <div className="space-y-6 max-w-full">
         <h2>Something went wrong!</h2>
         <button
           onClick={() => location.reload()}
@@ -25,12 +25,12 @@ export default function Error({
           Reload this page
         </button>
 
-        <details>
+        <details className="max-w-full">
           <summary>Technical info: Digest {error.digest}</summary>
 
           <pre>{error.message}</pre>
 
-          <pre className="max-h-80 overflow-auto">{error.stack}</pre>
+          <pre className="max-h-80 max-w-full overflow-auto">{error.stack}</pre>
         </details>
       </div>
     </div>

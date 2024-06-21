@@ -396,25 +396,7 @@
     "repository": "https://github.com/Turfjs/turf"
   },
   {
-    "name": "@turf/line-intersect@7.0.0",
-    "publisher": "Turf Authors",
-    "licenses": "MIT",
-    "repository": "https://github.com/Turfjs/turf"
-  },
-  {
-    "name": "@turf/line-slice@7.0.0",
-    "publisher": "Turf Authors",
-    "licenses": "MIT",
-    "repository": "https://github.com/Turfjs/turf"
-  },
-  {
     "name": "@turf/meta@7.0.0",
-    "publisher": "Turf Authors",
-    "licenses": "MIT",
-    "repository": "https://github.com/Turfjs/turf"
-  },
-  {
-    "name": "@turf/nearest-point-on-line@7.0.0",
     "publisher": "Turf Authors",
     "licenses": "MIT",
     "repository": "https://github.com/Turfjs/turf"
@@ -3022,12 +3004,6 @@
     "publisher": "Jordan Harband",
     "licenses": "MIT",
     "repository": "https://github.com/inspect-js/node-supports-preserve-symlinks-flag"
-  },
-  {
-    "name": "sweepline-intersections@1.5.0",
-    "publisher": null,
-    "licenses": "MIT",
-    "repository": "https://github.com/rowanwins/sweepline-intersections"
   },
   {
     "name": "tabbable@6.2.0",

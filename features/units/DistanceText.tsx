@@ -17,7 +17,7 @@ export default function DistanceText({ meters }: { meters: number }) {
       </span>
       <button title="Change units" onClick={() => setShowSettings(true)}>
         <ChevronDownIcon
-          className="-mr-1 h-5 w-5 text-gray-400"
+          className="-mr-1 mb-0.5 h-5 w-5 text-gray-400"
           aria-hidden="true"
         />
       </button>
