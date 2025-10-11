@@ -9,3 +9,12 @@ html,
 body {
   @apply bg-white;
 }
+
+.link {
+  @apply underline;
+  color: #3182ce; 
+}
+
+.link:hover {
+  color: #2c5282;
+}

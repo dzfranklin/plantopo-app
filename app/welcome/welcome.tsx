@@ -34,7 +34,7 @@ export function Welcome({
               {resources.map(({ href, text, icon }) => (
                 <li key={href}>
                   <a
-                    className="group flex items-center gap-3 self-stretch p-3 leading-normal text-blue-700 hover:underline"
+                    className="group flex items-center gap-3 self-stretch p-3 leading-normal link"
                     href={href}
                     target="_blank"
                     rel="noreferrer"
