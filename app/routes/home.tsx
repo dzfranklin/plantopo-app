@@ -45,7 +45,7 @@ export async function loader({ context }: Route.LoaderArgs) {
 
   return {
     guestBook,
-    message: context.VALUE_FROM_EXPRESS,
+    message: "My message",
   };
 }
 
