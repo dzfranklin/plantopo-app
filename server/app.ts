@@ -3,17 +3,29 @@ import { drizzle } from "drizzle-orm/postgres-js";
 import express from "express";
 import postgres from "postgres";
 import "react-router";
-
-import { DatabaseContext } from "~/database/context";
-import * as schema from "~/database/schema";
+import { drizzleAdapter } from "better-auth/adapters/drizzle";
+import { DatabaseContext } from "@/db";
+import * as schema from "@/db/schema";
+import { betterAuth } from "better-auth";
+import { AuthenticationContext } from "./auth";
 
 export const app = express();
 
 if (!process.env.DATABASE_URL) throw new Error("DATABASE_URL is required");
 
-const client = postgres(process.env.DATABASE_URL);
-const db = drizzle(client, { schema });
-app.use((_, __, next) => DatabaseContext.run(db, next));
+const dbClient = postgres(process.env.DATABASE_URL);
+const db = drizzle(dbClient, { schema });
+
+export const auth = betterAuth({
+  database: drizzleAdapter(db, { provider: "pg" }),
+  emailAndPassword: {
+    enabled: true,
+  },
+});
+
+app.use((_, __, next) =>
+  DatabaseContext.run(db, () => AuthenticationContext.run(auth, next))
+);
 
 app.use(
   createRequestHandler({

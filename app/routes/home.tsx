@@ -1,8 +1,7 @@
-import { database } from "~/database/context";
-import * as schema from "~/database/schema";
-
+import { database, schema } from "@/db";
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
+import { authentication } from "@/auth";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -33,8 +32,9 @@ export async function action({ request }: Route.ActionArgs) {
   }
 }
 
-export async function loader({ context }: Route.LoaderArgs) {
+export async function loader({ request }: Route.LoaderArgs) {
   const db = database();
+  const auth = authentication();
 
   const guestBook = await db.query.guestBook.findMany({
     columns: {
@@ -43,9 +43,12 @@ export async function loader({ context }: Route.LoaderArgs) {
     },
   });
 
+  const session = await auth.api.getSession({ headers: request.headers });
+
   return {
     guestBook,
     message: "My message",
+    user: session?.user ?? null,
   };
 }
 
@@ -55,6 +58,7 @@ export default function Home({ actionData, loaderData }: Route.ComponentProps) {
       guestBook={loaderData.guestBook}
       guestBookError={actionData?.guestBookError}
       message={loaderData.message}
+      user={loaderData.user}
     />
   );
 }

@@ -1,4 +1,5 @@
-import { Form, useNavigation } from "react-router";
+import { Form, Link, useNavigation } from "react-router";
+import authClient from "~/auth.client";
 
 import logoLight from "./logo-light.svg";
 
@@ -6,6 +7,7 @@ export function Welcome({
   guestBook,
   guestBookError,
   message,
+  user,
 }: {
   guestBook: {
     name: string;
@@ -13,8 +15,14 @@ export function Welcome({
   }[];
   guestBookError?: string;
   message: string;
+  user: { id: string; name: string; email: string } | null;
 }) {
   const navigation = useNavigation();
+
+  const handleSignOut = async () => {
+    await authClient.signOut();
+    window.location.href = "/";
+  };
 
   return (
     <main className="flex items-center justify-center pt-16 pb-4">
@@ -24,6 +32,35 @@ export function Welcome({
           <div className="w-[500px] max-w-[100vw] p-4">
             <img src={logoLight} alt="React Router" className="block w-full" />
           </div>
+          {user && (
+            <div className="text-center">
+              <p className="text-gray-700">
+                Welcome back, <span className="font-medium">{user.name}</span>!
+              </p>
+              <button
+                onClick={handleSignOut}
+                className="mt-2 text-sm text-blue-500 hover:text-blue-600"
+              >
+                Sign out
+              </button>
+            </div>
+          )}
+          {!user && (
+            <div className="flex gap-4">
+              <Link
+                to="/login"
+                className="px-4 py-2 text-blue-500 border border-blue-500 rounded-lg hover:bg-blue-50"
+              >
+                Sign In
+              </Link>
+              <Link
+                to="/register"
+                className="px-4 py-2 text-white bg-blue-500 rounded-lg hover:bg-blue-600"
+              >
+                Create Account
+              </Link>
+            </div>
+          )}
         </header>
         <div className="max-w-[300px] w-full space-y-6 px-4">
           <nav className="rounded-3xl border border-gray-200 p-6 space-y-4">
