@@ -4,10 +4,10 @@ import express from "express";
 import postgres from "postgres";
 import "react-router";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
-import { DatabaseContext } from "@/db";
-import * as schema from "@/db/schema";
+import { DatabaseContext } from "~/db/db.server";
+import * as schema from "~/db/schema.server";
 import { betterAuth } from "better-auth";
-import { AuthenticationContext } from "./auth";
+import { AuthenticationContext } from "~/auth/auth.server";
 
 export const app = express();
 

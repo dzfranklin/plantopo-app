@@ -1,7 +1,7 @@
-import { database, schema } from "@/db";
+import { database, schema } from "~/db/db.server";
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
-import { authentication } from "@/auth";
+import { authentication } from "~/auth/auth.server";
 
 export function meta({}: Route.MetaArgs) {
   return [

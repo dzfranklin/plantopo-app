@@ -8,7 +8,7 @@ export default defineConfig(({ isSsrBuild }) => ({
   build: {
     rollupOptions: isSsrBuild
       ? {
-          input: "./server/app.ts",
+          input: "./app/server.ts",
         }
       : undefined,
   },
@@ -18,7 +18,7 @@ export default defineConfig(({ isSsrBuild }) => ({
     tsconfigPaths(),
     denyImports({
       client: {
-        files: ["**/.server/*", "**/*.server.*", "server/**"],
+        files: ["**/.server/*", "**/*.server.*"],
       },
       server: {},
     }),

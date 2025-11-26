@@ -1,4 +1,4 @@
-import { authentication } from "@/auth";
+import { authentication } from "~/auth/auth.server";
 import type { Route } from "./+types/auth";
 
 export async function loader({ request }: Route.LoaderArgs) {
