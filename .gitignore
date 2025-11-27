@@ -6,3 +6,6 @@
 # React Router
 /.react-router/
 /build/
+
+.claude/settings.local.json
+.vscode/settings.local.json

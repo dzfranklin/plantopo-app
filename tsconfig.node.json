@@ -1,6 +1,12 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["server.js", "vite.config.ts"],
+  "include": [
+    "server.js",
+    "worker.js",
+    "worker-dev-wrapper.js",
+    "vite.config.ts",
+    "vite.worker.config.ts"
+  ],
   "compilerOptions": {
     "composite": true,
     "strict": true,

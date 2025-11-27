@@ -31,6 +31,32 @@ if (DEVELOPMENT) {
       next(error);
     }
   });
+
+  // Spawn worker in development mode
+  const { spawn } = await import("child_process");
+
+  function startWorkerWrapper() {
+    console.log("Spawning development worker...");
+    const workerProcess = spawn("node", ["worker-dev-wrapper.js"], {
+      stdio: "inherit",
+      env: process.env,
+    });
+
+    workerProcess.on("exit", (code, signal) => {
+      console.log(`Worker exited ${{ code, signal }} restarting...`);
+      startWorkerWrapper();
+    });
+
+    return workerProcess;
+  }
+
+  const workerProcess = startWorkerWrapper();
+
+  ["SIGTERM", "SIGINT"].forEach((signal) => process.on(signal, async () => {
+    console.log(`Received ${signal}, exiting`);
+    workerProcess.kill("SIGTERM");
+    process.exit(0);
+  }));
 } else {
   console.log("Starting production server");
   app.use(

@@ -12,11 +12,14 @@ FROM node:20-alpine AS build-env
 COPY . /app/
 COPY --from=development-dependencies-env /app/node_modules /app/node_modules
 WORKDIR /app
-RUN npm run build
+RUN npm run build && \
+    npx vite build --config vite.worker.config.ts
 
 FROM node:20-alpine
-COPY ./package.json package-lock.json server.js /app/
+COPY ./package.json package-lock.json server.js worker.js entrypoint.sh /app/
 COPY --from=production-dependencies-env /app/node_modules /app/node_modules
 COPY --from=build-env /app/build /app/build
 WORKDIR /app
-CMD ["npm", "run", "start"]
+RUN chmod +x /app/entrypoint.sh
+ENV NODE_ENV production
+ENTRYPOINT ["/app/entrypoint.sh"]

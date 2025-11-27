@@ -1,6 +1,9 @@
 .react-router
 build
 node_modules
-README.md
+.git
+*.md
 .env
 .env.example
+worker-dev-wrapper.js
+vitest.config.ts
