@@ -6,7 +6,7 @@ case "$1" in
     exec node worker.js
     ;;
   --migrate)
-    exec npm run db:migrate
+    exec npx drizzle-kit migrate
     ;;
   "")
     exec node server.js

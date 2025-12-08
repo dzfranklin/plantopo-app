@@ -13,7 +13,6 @@ export async function startWorker() {
   console.log("Worker starting...");
 
   await DatabaseContext.run(db, async () => {
-    console.log("Worker running with database context");
     while (true) {
       console.log("worker tick");
       await setTimeout(1_000);

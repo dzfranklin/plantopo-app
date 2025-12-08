@@ -16,10 +16,11 @@ RUN npm run build && \
     npx vite build --config vite.worker.config.ts
 
 FROM node:20-alpine
-COPY ./package.json package-lock.json server.js worker.js entrypoint.sh /app/
+COPY ./package.json package-lock.json server.js worker.js entrypoint.sh drizzle.config.ts /app/
+COPY ./drizzle /app/drizzle
 COPY --from=production-dependencies-env /app/node_modules /app/node_modules
 COPY --from=build-env /app/build /app/build
 WORKDIR /app
 RUN chmod +x /app/entrypoint.sh
-ENV NODE_ENV production
+ENV NODE_ENV=production
 ENTRYPOINT ["/app/entrypoint.sh"]
